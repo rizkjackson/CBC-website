@@ -1,0 +1,8 @@
+<%@string site_topdomain="ucsf.edu"%>
+<%@string site_domain="cbc.ucsf.edu"%>
+<%@string site_name="Computational Biology Core"%>
+<%@string site_acronym="CBC"%>
+<%@string site_motto="We are here to help you advance your research!"%>
+<%@string site_image="assets/images/combio3.gif"%>
+<%@meta author="Henrik Bengtsson"%>
+<%@string google_analytics_id=""%>
