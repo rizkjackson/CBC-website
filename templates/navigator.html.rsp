@@ -13,9 +13,11 @@
     <div class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li><a href="<%=pathToRoot%>consultation/index.html">Consultation</a></li>
+        <li><a href="<%=pathToRoot%>education/index.html">Education</a></li>
         <li><a href="<%=pathToRoot%>stories/index.html">Stories</a></li>
         <li><a href="<%=pathToRoot%>publications/index.html">Publications</a></li>
         <li><a href="<%=pathToRoot%>software/index.html">Software</a></li>
+        <li><a href="<%=pathToRoot%>about/index.html">About</a></li>
         <li><a href="<%=pathToRoot%>contact/index.html">Contact</a></li>
       </ul>
     </div>
