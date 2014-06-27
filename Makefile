@@ -51,7 +51,7 @@ alpha:
 	rsync -avvz --perms --chmod=ugo+rx --progress html/ cbc.ucsf.edu:~/www-cbc/alpha/
 
 publish:
-#	rsync -avvz --perms --chmod=ugo+rx --progress html/ cbc.ucsf.edu:~/www-cbc/
+	rsync -avvz --perms --chmod=ugo+rx --progress html/ cbc.ucsf.edu:~/www-cbc/
 
 
 #=====================================================================
