@@ -38,12 +38,12 @@
 <%@ifeq page=""%>
   <div class="jumbotron">
     <div class="media">
-      <a class="pull-left" href="#">
+      <div class="pull-right">
         <img src="<%@string name="site_image"%>" 
              class="img-rounded img-responsive"
              style="max-height: 200px; margin-right: 40px; margin-bottom: 20px"
              alt="Core members">
-      </a>
+      </div>
       <h2>
        <%@string name="site_name"%> (<%@string name="site_acronym"%>)
        <%@ifneq site_motto=""%>
