@@ -41,12 +41,10 @@ We are experienced in programming languages such as C, C++,
 Java, Perl, Python and R, to name a few.
 
 
-<%-- PROJECTS --%>
 [R]: http://www.r-project.org/
 [Bioconductor]: http://www.bioconductor.org/
 [Aroma Project]: http://www.aroma-project.org/
 
-<%-- SOFTWARE --%>
 [affxparser]: http://www.bioconductor.org/packages/release/bioc/html/affxparser.html
 [aroma]: http://www.aroma-project.org/packages/aroma/
 [aroma.affymetrix]: http://cran.r-project.org/package=aroma.affymetrix
