@@ -53,7 +53,7 @@ Java, Perl, Python and R, to name a few.
 [aroma.seq]: http://aroma-project.org/alpha/aroma.seq/
 [babel]: http://cran.r-project.org/package=babel
 [DNAcopy]: http://www.bioconductor.org/packages/release/bioc/html/DNAcopy.html
-[EGAN]: http://akt.ucsf.edu/
+[EGAN]: http://akt.ucsf.edu/EGAN/
 [illuminaio]: http://www.bioconductor.org/packages/release/bioc/html/illuminaio.html
 [matrixStats]: http://cran.r-project.org/package=matrixStats
 [partDSA]: http://cran.r-project.org/package=partDSA
