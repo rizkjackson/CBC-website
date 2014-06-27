@@ -1,0 +1,11 @@
+<%-- Add favicons to external links --%>
+<script>
+  $("a[href^='http']:not([href*='<%@string name="site_topdomain"%>']):not([id*='edit'])").each(function() {
+    $(this).css({
+      "background": "url(http://g.etfv.co/" +
+                     this.href + ") left center no-repeat",
+      "background-size": "16px",
+      "padding-left": "20px"
+    });
+  });
+</script>
