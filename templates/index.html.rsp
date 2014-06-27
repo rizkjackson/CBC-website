@@ -42,7 +42,7 @@
         <img src="<%@string name="site_image"%>" 
              class="img-rounded img-responsive"
              style="max-height: 200px; margin-right: 40px; margin-bottom: 20px"
-             alt="Hang glider in LZ">
+             alt="Core members">
       </a>
       <h2>
        <%@string name="site_name"%> (<%@string name="site_acronym"%>)
@@ -78,5 +78,9 @@
   <script src="<%@string name="bootstrap_url"%>/js/bootstrap.min.js"></script>
   <%-- <%@include file="link-annotation.html.rsp"%> --%>
   <%-- <%@include file="google-analytics.html.rsp"%> --%>
+  <%-- Include any extras that the page wish to add to the end --%>
+  <%@if test="exists" name="footer_tail"%>
+    <%@string name="footer_tail"%><%@string footer_tail=""%>
+  <%@endif%>
 </body>
 </html>

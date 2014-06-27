@@ -14,7 +14,7 @@ Bengtsson is the creator of the [Aroma Project].  This helps us to keep
 up to date with the field, to get invaluable feedback on our own
 software and work.
 
-Here is an excerpt the software tools we have developed:
+Here is an excerpt of the software tools we have developed:
 
 * [affxparser]: Software for parsing Affymetrix microarray files.
 * [aroma]: Preprocessing of spotted microarray data.
