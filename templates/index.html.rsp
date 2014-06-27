@@ -40,8 +40,8 @@
     <div class="media">
       <a class="pull-left" href="#">
         <img src="<%@string name="site_image"%>" 
-             class="img-rounded"
-             style="height: 200px; margin-right: 40px; margin-bottom: 20px"
+             class="img-rounded img-responsive"
+             style="max-height: 200px; margin-right: 40px; margin-bottom: 20px"
              alt="Hang glider in LZ">
       </a>
       <h2>
