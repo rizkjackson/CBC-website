@@ -56,10 +56,9 @@ microarray technologies.  (This does _not_ mean that we get 4000 times
 more "information" from HT-Seq data, but that is a different story).
 
 At the UCSF Helen Diller Family Comprehensive Cancer Center we have
-access to a large Linux compute cluster, which, together with a taylored
-implementation of the Aroma Framework (e.g. aroma.seq and
-aroma.affymetrix), allows us to process a large amount of data in a
-highly parallel fashion.
+a large Linux compute cluster, which, together with taylored
+implementations (e.g. aroma.seq and aroma.affymetrix), allows us to
+process a large amount of data in a highly parallel fashion.
 
 
 
