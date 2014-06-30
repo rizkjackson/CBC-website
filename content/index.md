@@ -11,6 +11,7 @@ and data analysis.
 
 Our resources are prioritized toward members of the UCSF Helen Diller
 Family Comprehensive Cancer Center, but as time permits, we also
-provide consultation other UCSF investigators. If you believe we can
-be of help to you, feel free to drop by on the second floor or grab us
-in the hallway.  You can of course also contact us by email or phone.
+provide consultation to other UCSF investigators. If you believe we
+can be of help to you, feel free to drop by on the second floor or
+grab us in the hallway.  You can of course also contact us by email or
+phone.
