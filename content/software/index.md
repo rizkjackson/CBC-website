@@ -1,13 +1,39 @@
-# Scientific Software
+# Software and Computing Resources
 
+## Scientific Software
 One of our priorities is to provide scientifically sound and
 reproducible research results.   In order to achive this we make use
 of a large number of high-quality computational software tools
 provided by the industry and the academic world.  We try to use
-open-source software as far as possible.
+open-source software as far as possible, particularly because it is
+key to reproducible research.
+
+## Compute Cluster
+The amount of data being processed in genomic research has grown
+dramatically during the last decade.  It is less than a decade ago
+that Affymetrix SNP array data (~60MB/sample) were considered large.
+Many software tools could only handle 10-20 arrays in multi-sample
+studies<sup><a href="#fn1" id="r1">[1]</a></sup>.
+When high-throughput sequencing (HT-Seq) entered the arena, there was
+a paradigm shift in the amount of data needed to be processed per
+sample.  Sequencing the DNA of a _single human genome_ at 50 times
+coverage produces a _~250GB data file_ of aligned reads.
+Yes, that is a ~4000 times larger file than what we get with
+microarray technologies.  (This does _not_ mean that we get 4000 times
+more "information" from HT-Seq data, but that is a different story).
+
+At the UCSF Helen Diller Family Comprehensive Cancer Center we have
+a large Linux compute cluster, which, together with taylored
+implementations (e.g. our aroma.seq and aroma.affymetrix), allows us to
+process a large amount of data in a highly parallel fashion.
+
+## Programming Languages
+We are using several state-of-the-art tools for our daily work.
+We are experienced in programming languages such as C, C++,
+Java, Perl, Python and R, to name a few.
 
 
-## Our contributions
+## Our software contributions
 In addition to being users, we also contribute to several open-source
 projects including [R] and [Bioconductor] and core member Henrik
 Bengtsson is the creator of the [Aroma Project].  This helps us to keep
@@ -34,31 +60,6 @@ Here is an excerpt of the software tools we have developed:
 * [R.rsp]: Dynamic generation of scientific reports for reproducible research.
 * [sfit]: Multidimensional simplex fitting.
 
-
-## Programming Languages
-We are using several state-of-the-art tools for our daily work.
-We are experienced in programming languages such as C, C++,
-Java, Perl, Python and R, to name a few.
-
-
-## Compute Cluster
-The amount of data being processed in genomic research has grown
-dramatically during the last decade.  It is less than a decade ago
-that Affymetrix SNP array data (~60MB/sample) were considered large.
-Many software tools could only handle 10-20 arrays in multi-sample
-studies<sup><a href="#fn1" id="r1">[1]</a></sup>.
-When high-throughput sequencing (HT-Seq) entered the arena, there was
-a paradigm shift in the amount of data needed to be processed per
-sample.  Sequencing the DNA of a _single human genome_ at 50 times
-coverage produces a _~250GB data file_ of aligned reads.
-Yes, that is a ~4000 times larger file than what we get with
-microarray technologies.  (This does _not_ mean that we get 4000 times
-more "information" from HT-Seq data, but that is a different story).
-
-At the UCSF Helen Diller Family Comprehensive Cancer Center we have
-a large Linux compute cluster, which, together with taylored
-implementations (e.g. aroma.seq and aroma.affymetrix), allows us to
-process a large amount of data in a highly parallel fashion.
 
 
 
