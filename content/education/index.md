@@ -10,3 +10,4 @@ Faculty and staff are available to give short presentations on topics such as:
 
 
 
+We will, we will, educate you.
