@@ -3,11 +3,11 @@
 ## Contact information
 <address>
   <strong>Adam Olshen</strong><br>
-  (UCSF Helen Diller Family Cancer Research Building @ Mission Bay)<br>
-  [1450 3rd Street, San Francisco, CA 94158]<br>
-  Office: HD 268<br>
+  Building: Helen Diller Family Cancer Research Building, UCSF Mission Bay campus<br>
+  Office: HD 267<br>
+  Address: [1450 3rd Street, San Francisco, CA 94158]<br>
   Phone: [415-514-9406](tel:+1 415-514-9406)<br>
-  Email: [olshena@biostat.ucsf.edu](mailto:olshena@biostat.ucsf.edu)</a><br>
+  Email: [adam.olshen@ucsf.edu](adam.olshen@ucsf.edu)</a><br>
   Google Hangout: http://cbc.ucsf.edu/adam/hangout (*)<br>
 </address>
 
