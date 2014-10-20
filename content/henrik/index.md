@@ -3,9 +3,9 @@
 ## Contact information
 <address>
   <strong>Henrik Bengtsson</strong><br>
-  (UCSF Helen Diller Family Cancer Research Building @ Mission Bay)<br>
-  [1450 3rd Street, San Francisco, CA 94158]<br>
-  Office: HD 267<br>
+  Building: Helen Diller Family Cancer Research Building, UCSF Mission Bay campus<br>
+  Office: HD 268<br>
+  Address: [1450 3rd Street, San Francisco, CA 94158]<br>
   Phone: [415-502-0270](tel:+1 415-502-0270)<br>
   Email: [hb@biostat.ucsf.edu](mailto:hb@biostat.ucsf.edu)</a><br>
   Google Hangout: http://cbc.ucsf.edu/henrik/hangout (*)<br>
