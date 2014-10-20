@@ -1,23 +1,17 @@
 # Consultation
 
-## Examples
-
-
 ## Rates
-We provide consultation up to one hour per project at no cost.
-Consultation beyond one hour, and all data analyses, are handled
-through a recharge mechanism.
 
 <%--- Exactly what does the below mean? Does it mean that we do grant
-proposal for free? ---%>
-Assistance to Cancer Center members in developing grant proposals and
-writing clinical research protocols is covered by
-_Cancer Center Support Grant_ funds.
+proposal for free? ---%> Assistance to Cancer Center members in
+developing grant proposals and writing clinical research protocols is
+covered by the _Cancer Center Support Grant_.
 
-A large portion of Core activities, however, is funded from grants
-that include data analysts as part of their budget.  The Core
-encourages this practice for grants that will require substantial
-assistance; in such cases, recharges are on a percentage-effort basis. 
+We provide consultation up to one hour per project at no cost.
+Consultation beyond one hour, and all data analyses, are handled
+through a recharge mechanism.  For smaller projects, we charge on an
+hourly basis.  For larger projects, we prefer to be paid on a
+percentage-effort basis.
 
 <%--- KEEP?!? [http://cancer.ucsf.edu/research/cores/computational-biology/]
 * Internal users are funded by UCSF sources (or other UC campus
