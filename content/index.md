@@ -11,6 +11,6 @@ analysis, and grant and manuscript development.
 Our resources are prioritized toward members of the UCSF Helen Diller
 Family Comprehensive Cancer Center, but as time permits, we also
 provide consultation to other UCSF investigators. If you believe we
-can be of help to you, feel free to drop by one of our office or grab
-us in the hallway.  You can of course schedule a meeting by email or
-phone.
+can be of help to you, feel free to drop by one of our offices or grab
+one of us in the hallway.  You can of course schedule a meeting by
+email or phone.  Discussion is always free.
