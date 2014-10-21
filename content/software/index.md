@@ -1,5 +1,32 @@
 # Software and Computing Resources
 
+## Our software contributions
+In addition to being users, we also contribute to several open-source
+projects including [R] and [Bioconductor] and core member Henrik
+Bengtsson is the creator of the [Aroma Project].  This helps us to keep
+up to date with the field, to get invaluable feedback on our own
+software and work.
+
+Here is an excerpt of the software tools we have developed:
+
+* [affxparser]: Software for parsing Affymetrix microarray files.
+* [aroma]: Preprocessing of spotted microarray data.
+* [aroma.affymetrix]: Analysis of small to extremely large Affymetrix microarray data sets.
+* [aroma.seq]: High-throughput sequence (HT-Seq) analysis in the Aroma framework.  (Pre-release.)
+* [babel]: Ribosome profiling data analysis using the statistical
+  method with the same name.
+* [DNAcopy]: Circular Binary Segmentation (CBS) method for aCGH copy
+  number analysis.
+* [EGAN]: Exploratory Gene Association Networks.
+* [illuminaio]: Software for parsing Affymetrix microarray files.
+* [matrixStats]: Fast and memory-efficient mathmatical operations on matrices.
+* [partDSA]: Piecewise constant estimation of increasingly complex predictors.
+* [PSCBS]: Parent-specific copy number segmentation using CBS.
+* [QDNAseq]: Quantitative DNA sequencing for chromosomal aberrations using shallow DNA-Seq.
+* [R.matlab]: R-to-MATLAB connectivity and methods for reading and writing MAT files.
+* [R.rsp]: Dynamic generation of scientific reports for reproducible research.
+* [sfit]: Multidimensional simplex fitting.
+
 ## Scientific Software
 One of our priorities is to provide scientifically sound and
 reproducible research results.   In order to achive this we make use
@@ -32,33 +59,6 @@ We are using several state-of-the-art tools for our daily work.
 We are experienced in programming languages such as C, C++,
 Java, Perl, Python and R, to name a few.
 
-
-## Our software contributions
-In addition to being users, we also contribute to several open-source
-projects including [R] and [Bioconductor] and core member Henrik
-Bengtsson is the creator of the [Aroma Project].  This helps us to keep
-up to date with the field, to get invaluable feedback on our own
-software and work.
-
-Here is an excerpt of the software tools we have developed:
-
-* [affxparser]: Software for parsing Affymetrix microarray files.
-* [aroma]: Preprocessing of spotted microarray data.
-* [aroma.affymetrix]: Analysis of small to extremely large Affymetrix microarray data sets.
-* [aroma.seq]: High-throughput sequence (HT-Seq) analysis in the Aroma framework.
-* [babel]: Ribosome profiling data analysis using the statistical
-  method with the same name.
-* [DNAcopy]: Circular Binary Segmentation (CBS) method for aCGH copy
-  number analysis.
-* [EGAN]: Exploratory Gene Association Networks.
-* [illuminaio]: Software for parsing Affymetrix microarray files.
-* [matrixStats]: Fast and memory-efficient mathmatical operations on matrices.
-* [partDSA]: Piecewise constant estimation of increasingly complex predictors.
-* [PSCBS]: Parent-specific copy number segmentation using CBS.
-* [QDNAseq]: Quantitative DNA sequencing for chromosomal aberrations using shallow DNA-Seq.
-* [R.matlab]: R-to-MATLAB connectivity and methods for reading and writing MAT files.
-* [R.rsp]: Dynamic generation of scientific reports for reproducible research.
-* [sfit]: Multidimensional simplex fitting.
 
 
 
