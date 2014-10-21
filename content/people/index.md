@@ -1,4 +1,4 @@
-# About
+# People
 
 ## Core members
 
@@ -7,15 +7,15 @@
      style="max-height: 200px; margin-right: 40px; margin-bottom: 20px"
      alt="Core members">
 
-* Rity Roy, MS, is a member of the Computational Biology of UCSF HDFCCC
+* Rity Roy, MSc, is a member of the Computational Biology of UCSF HDFCCC
   Computational Biology Shared Resource. Mrs. Roy has a Master's
   degrees in Computer Science from Dibrugarh University, India and in
   Biostatistics from UC Berkeley. As a biostatistician, she has ten
   years of experience in analysis of high-throughput genomic data at
   UCSF, prior to which she had been a software engineer for seven
-  years.  Contact Ritu (link to contacts page)
+  years.  [Contact Ritu](/contact/index.html)
 
-* Henrik Bengtsson, PHD, is an Assistant Professor in Residence in the
+* Henrik Bengtsson, PhD, is an Assistant Professor in Residence in the
   UCSF Department of Epidemiology and Biostatistics as well as a
   member of the Computational Biology of UCSF HDFCCC Computational
   Biology Shared Resource. He obtained his MSc (Computer Science) and
@@ -26,7 +26,7 @@
   computational biology, with a focus on applications of copy-number
   analysis to cancer genomics research.  He has recently developed the
   aroma.seq tools for analyzing new-generation sequencing data.
-  Contact Henrik (link to contacts page)
+  [Contact Henrik](/contact/index.html)
 
 * Adam Olshen, PhD and Director of the Core, is Professor In Residence
   in the UCSF Department of Epidemiology and Biostatistics. Dr. Olshen
@@ -37,7 +37,7 @@
   for integrating multiple types of genomic data and for analyzing
   ribosome profiling data. He has extensive experience in the analysis
   of genomic, proteomic, and other types of high-throughput biological
-  data.  Contact Adam (link to contacts page)
+  data.  [Contact Adam](/contact/index.html)
 
 
 
