@@ -180,7 +180,7 @@ buildPage <- function(src, path=".", skip=TRUE) {
   }
 
   # Read RSP Markdown content
-  body <- readLines(pathnameS)
+  body <- readLines(pathnameS, warn=FALSE)
 
   # Extract page title
   title <- grep("^#[ ]*", body, value=TRUE)[1L]
@@ -331,6 +331,8 @@ buildPages(path=path)
 
 ############################################################################
 # HISTORY:
+# 2014-10-20
+# o No longer warning on "incomplete final line".
 # 2014-06-25
 # o Created.
 ############################################################################
