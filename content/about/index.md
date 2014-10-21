@@ -7,23 +7,38 @@
      style="max-height: 200px; margin-right: 40px; margin-bottom: 20px"
      alt="Core members">
 
-* [Rity Roy]
-* [Henrik Bengtsson]
-* [Adam Olshen], Director
+* Rity Roy, MS, is a member of the Computational Biology of UCSF HDFCCC
+  Computational Biology Shared Resource. Mrs. Roy has a Master's
+  degrees in Computer Science from Dibrugarh University, India and in
+  Biostatistics from UC Berkeley. As a biostatistician, she has ten
+  years of experience in analysis of high-throughput genomic data at
+  UCSF, prior to which she had been a software engineer for seven
+  years.  Contact Ritu (link to contacts page)
+
+* Henrik Bengtsson, PHD, is an Assistant Professor in Residence in the
+  UCSF Department of Epidemiology and Biostatistics as well as a
+  member of the Computational Biology of UCSF HDFCCC Computational
+  Biology Shared Resource. He obtained his MSc (Computer Science) and
+  PhD (Mathematical Statistics) from Lund University in Sweden. Before
+  joining the UCSF faculty, he did postdoctoral research at Walter and
+  Eliza Hall Institute of Medical Research in Melbourne and at
+  University of California at Berkeley. He has extensive experience in
+  computational biology, with a focus on applications of copy-number
+  analysis to cancer genomics research.  He has recently developed the
+  aroma.seq tools for analyzing new-generation sequencing data.
+  Contact Henrik (link to contacts page)
+
+* Adam Olshen, PhD and Director of the Core, is Professor In Residence
+  in the UCSF Department of Epidemiology and Biostatistics. Dr. Olshen
+  received his PhD in Biostatistics from the University of
+  Washington. His expertise is in cancer genomics. He is particularly
+  known for methods of DNA copy number analysis, having co-developed
+  the popular CBS algorithm.  More recently, he has worked on methods
+  for integrating multiple types of genomic data and for analyzing
+  ribosome profiling data. He has extensive experience in the analysis
+  of genomic, proteomic, and other types of high-throughput biological
+  data.  Contact Adam (link to contacts page)
 
 
-## Grants
-
-This core is supported by a National Cancer Institute Cancer Center
-Support Grant ([5P30CA082103-15]).  Any publications related to work
-done by this core, should reference grant number [5P30CA082103-15] and
-must include a [PMCID](http://publicaccess.nih.gov/submit_process.htm)
-as required by the NIH. For more information on the NCI CCSG, please
-contact Jordan Brainerd at brainerdj@cc.ucsf.edu.
 
 
-[Henrik Bengtsson]: http://www.epibiostat.ucsf.edu/epidem/personnel/hbengtsson.html
-[Adam Olshen]: http://cancer.ucsf.edu/people/profiles/olshen_adam.3576
-[Rity Roy]: http://cancer.ucsf.edu/people/profiles/roy_ritu.3644
-
-[5P30CA082103-15]: http://projectreporter.nih.gov/project_info_description.cfm?aid=7930184&icde=13086291&ddparam=&ddvalue=&ddsub=&cr=1&csb=default&cs=ASC
