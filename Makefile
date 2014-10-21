@@ -46,12 +46,16 @@ build:
 #=====================================================================
 # Publish (=go live!)
 #=====================================================================
-# Requires a 'Host bhgc.org-website' entry in ~/.ssh/config
-alpha:
-	rsync -avvz --perms --chmod=ugo+rx --progress html/ cbc.ucsf.edu:~/www-cbc/alpha/
+# Requires a 'cbc.ucsf.edu' entry in ~/.ssh/config with:
+#
+#  Host cbc.ucsf.edu
+#    User <username on cbc.ucsf.edu> 
+
+## alpha:
+## 	rsync -avvz --perms --chmod=ugo+rx --progress html/ cbc.ucsf.edu:/var/www-cbc/
 
 publish:
-	rsync -avvz --perms --chmod=ugo+rx --progress html/ cbc.ucsf.edu:~/www-cbc/
+	rsync -avvz --perms --chmod=ugo+rx --progress html/ cbc.ucsf.edu:/var/www-cbc/
 
 
 #=====================================================================
