@@ -19,7 +19,7 @@ Here is an excerpt of the software tools we have developed:
   number analysis.
 * [EGAN]: Exploratory Gene Association Networks.
 * [illuminaio]: Software for parsing Affymetrix microarray files.
-* [matrixStats]: Fast and memory-efficient mathmatical operations on matrices.
+* [matrixStats]: Fast and memory-efficient mathematical operations on matrices.
 * [partDSA]: Piecewise constant estimation of increasingly complex predictors.
 * [PSCBS]: Parent-specific copy number segmentation using CBS.
 * [QDNAseq]: Quantitative DNA sequencing for chromosomal aberrations using shallow DNA-Seq.
@@ -29,7 +29,7 @@ Here is an excerpt of the software tools we have developed:
 
 ## Scientific Software
 One of our priorities is to provide scientifically sound and
-reproducible research results.   In order to achive this we make use
+reproducible research results.   In order to achieve this we make use
 of a large number of high-quality computational software tools
 provided by the industry and the academic world.  We try to use
 open-source software as far as possible, particularly because it is
@@ -40,7 +40,7 @@ The amount of data being processed in genomic research has grown
 dramatically during the last decade.  It is less than a decade ago
 that Affymetrix SNP array data (~60MB/sample) were considered large.
 Many software tools could only handle 10-20 arrays in multi-sample
-studies<sup><a href="#fn1" id="r1">[1]</a></sup>.
+studies&nbsp;<sup><a href="#fn1" id="r1">[1]</a></sup>.
 When high-throughput sequencing (HT-Seq) entered the arena, there was
 a paradigm shift in the amount of data needed to be processed per
 sample.  Sequencing the DNA of a _single human genome_ at 50 times
@@ -50,7 +50,7 @@ microarray technologies.  (This does _not_ mean that we get 4000 times
 more "information" from HT-Seq data, but that is a different story).
 
 At the UCSF Helen Diller Family Comprehensive Cancer Center we have
-a large Linux compute cluster, which, together with taylored
+a large Linux compute cluster, which, together with tailored
 implementations (e.g. our aroma.seq and aroma.affymetrix), allows us to
 process a large amount of data in a highly parallel fashion.
 

@@ -7,8 +7,8 @@
      style="max-height: 200px; margin-right: 40px; margin-bottom: 20px"
      alt="Core members">
 
-* Rity Roy, MSc, is a member of the Computational Biology of UCSF HDFCCC
-  Computational Biology Shared Resource. Mrs. Roy has a Master's
+* Ritu Roy, MSc, is a member of the Computational Biology of UCSF HDFCCC
+  Computational Biology Shared Resource. Mrs. Roy has Master's
   degrees in Computer Science from Dibrugarh University, India and in
   Biostatistics from UC Berkeley. As a biostatistician, she has ten
   years of experience in analysis of high-throughput genomic data at
