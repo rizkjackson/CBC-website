@@ -50,9 +50,10 @@ microarray technologies.  (This does _not_ mean that we get 4000 times
 more "information" from HT-Seq data, but that is a different story).
 
 At the UCSF Helen Diller Family Comprehensive Cancer Center we have
-a large Linux compute cluster, which, together with tailored
-implementations (e.g. our aroma.seq and aroma.affymetrix), allows us to
-process a large amount of data in a highly parallel fashion.
+a large Linux compute cluster (maintained by [Translational
+Informatics]), which, together with tailored implementations (e.g. our
+aroma.seq and aroma.affymetrix), allows us to process a large amount
+of data in a highly parallel fashion.
 
 ## Programming Languages
 We are using several state-of-the-art tools for our daily work.
@@ -92,3 +93,5 @@ Java, Perl, Python and R, to name a few.
 [R.matlab]: http://cran.r-project.org/package=R.matlab
 [R.rsp]: http://cran.r-project.org/package=R.rsp
 [sfit]: https://r-forge.r-project.org/R/?group_id=349
+
+[Translational Informatics]: http://cancer.ucsf.edu/research/cores/translational-informatics
