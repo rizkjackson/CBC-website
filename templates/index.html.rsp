@@ -79,7 +79,7 @@
   <%-- <%@include file="link-annotation.html.rsp"%> --%>
   <%@include file="google-analytics.html.rsp"%>
   <%-- Include any extras that the page wish to add to the end --%>
-  <%@if test="exists" name="footer_tail"%>
+  <%@ifdef name="footer_tail"%>
     <%@string name="footer_tail"%><%@string footer_tail=""%>
   <%@endif%>
 </body>
