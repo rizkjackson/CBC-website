@@ -5,4 +5,4 @@
 <%@string site_motto="We are here to help you advance your research!"%>
 <%@string site_image="assets/images/combio3.gif"%>
 <%@meta author="Henrik Bengtsson"%>
-<%@string google_analytics_id=""%>
+<%@string google_analytics_id="UA-56080795-1"%>

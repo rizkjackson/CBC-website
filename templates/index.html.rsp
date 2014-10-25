@@ -77,7 +77,7 @@
   <script src="<%@string name="jquery_url"%>/jquery.min.js"></script>
   <script src="<%@string name="bootstrap_url"%>/js/bootstrap.min.js"></script>
   <%-- <%@include file="link-annotation.html.rsp"%> --%>
-  <%-- <%@include file="google-analytics.html.rsp"%> --%>
+  <%@include file="google-analytics.html.rsp"%>
   <%-- Include any extras that the page wish to add to the end --%>
   <%@if test="exists" name="footer_tail"%>
     <%@string name="footer_tail"%><%@string footer_tail=""%>
