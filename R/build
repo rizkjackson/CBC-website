@@ -119,7 +119,9 @@ use <- function(...) {
 
 
 buildPage <- function(src, path=".", skip=TRUE) {
-  use("R.utils, R.rsp, markdown")
+  use("R.utils")
+  use("R.rsp (>= 0.19.6)")
+  use("markdown")
 
   if (is.na(src)) throw("Unknown page source: ", src)
 
