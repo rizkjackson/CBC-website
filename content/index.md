@@ -6,7 +6,7 @@ genetics, bioinformatics, computer science and statistics with
 long-term experience in high-throughput sequencing, microarrays, and
 other genomic and proteomic technologies.  Our activities include, but
 are not limited to, scientific consultation, study design, data
-analysis, and grant and manuscript development.
+analysis, software development and grant and manuscript assistance.
 
 Our resources are prioritized toward members of the UCSF Helen Diller
 Family Comprehensive Cancer Center, but as time permits, we also
