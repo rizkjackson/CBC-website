@@ -2,12 +2,20 @@
 
 ## Adam Olshen
 <div id="adam_profiles_publications">
-<%-- The content will be populated by the below script --%>
+<ol>
+  <li>
+    <em>Retrieving publications from the <a href="http://profiles.ucsf.edu/adam.olshen">UCSF Profile</a> database...</em>
+  </li>
+</ol>
 </div>
 
 ## Henrik Bengtsson
 <div id="henrik_profiles_publications">
-<%-- The content will be populated by the below script --%>
+<ol>
+  <li>
+    <em>Retrieving publications from the <a href="http://profiles.ucsf.edu/henrik.bengtsson">UCSF Profile</a> database...</em>
+  </li>
+</ol>
 </div>
 
 ## Ritu Roy
