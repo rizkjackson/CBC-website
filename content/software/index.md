@@ -12,7 +12,7 @@ Here is an excerpt of the software tools we have developed:
 * [affxparser]: Software for parsing Affymetrix microarray files.
 * [aroma]: Preprocessing of spotted microarray data.
 * [aroma.affymetrix]: Analysis of small to extremely large Affymetrix microarray data sets.
-* [aroma.seq]: High-throughput sequence (HT-Seq) analysis in the Aroma framework.  (Pre-release.)
+* aroma.seq: High-throughput sequence (HT-Seq) analysis in the Aroma framework.  (Pre-release.)
 * [babel]: Ribosome profiling data analysis using the statistical
   method with the same name.
 * [DNAcopy]: Circular Binary Segmentation (CBS) method for aCGH copy

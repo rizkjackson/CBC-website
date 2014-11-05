@@ -4,7 +4,7 @@
 stories <- list(
   list(
     title="Biomarker for oral squamous cell carcinoma",
-    id="1DVzDnWIVTRYTaXPVLtOx0muGIa32kn7qY9N7upIvy8s"
+    id="1bpjA15DwDVSBFmYFHEXNXNUI6o1vVRJhoidydKrkUIc"
   ),
   list(
     title="Parent-specific copy numbers",
