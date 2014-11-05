@@ -34,35 +34,36 @@
  ----------------------------------------------------------------------------%>
 <div id="wrap">
 
-<div class="container">
-<%@ifeq page=""%>
-  <div class="jumbotron">
-    <div class="media">
-      <div class="pull-right">
-        <img src="<%@string name="site_image"%>" 
-             class="img-rounded img-responsive"
-             style="max-height: 200px; margin-right: 40px; margin-bottom: 20px"
-             alt="Core members">
+  <div class="container">
+  <%@ifeq page=""%>
+    <div class="jumbotron">
+      <div class="media">
+        <div class="pull-right">
+          <img src="<%@string name="site_image"%>" 
+               class="img-rounded img-responsive"
+               style="max-height: 200px; margin-right: 40px; margin-bottom: 20px"
+               alt="Core members">
+        </div>
+        <h2>
+         <%@string name="site_name"%> (<%@string name="site_acronym"%>)
+         <%@ifneq site_motto=""%>
+           <br><small><%@string name="site_motto"%></small>
+         <%@endif%>
+        </h2>
+        <%@include content="${body}"%>
       </div>
-      <h2>
-       <%@string name="site_name"%> (<%@string name="site_acronym"%>)
-       <%@ifneq site_motto=""%>
-         <br><small><%@string name="site_motto"%></small>
-       <%@endif%>
-      </h2>
-      <%@include content="${body}"%>
-    </div>
-  </div>
-
-  <%-- GRID NAVIGATION --%>
-  <%@include file="navigator-grid.html.rsp"%>
-<%@else%>
-  <%@include content="${body}"%>
-<%@endif%>
-</div>
+    </div> <%-- class="jumbotron" --%>
+  
+    <%-- GRID NAVIGATION --%>
+    <%@include file="navigator-grid.html.rsp"%>
+  <%@else%>
+    <%@include content="${body}"%>
+  <%@endif%>
+  </div> <%-- class="container" --%>
 
   <div id="push"></div>
-</div>
+</div> <%-- id="wrap" --%>
+
 
 <%----------------------------------------------------------------------------
  FOOTER

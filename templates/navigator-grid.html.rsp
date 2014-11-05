@@ -1,4 +1,7 @@
 <div style="text-align: center;">
+<div class="row-fluid">
+
+<div class="col-md-12">
 
   <a href="<%=pathToRoot%>people/index.html" class="btn btn-default btn-lg" style="width: 7em; margin: 0.3ex; padding: 0.6ex 0.2ex 0.6ex 0.2ex; text-align: center;">
     <span class="glyphicon glyphicon-user"></span>
@@ -39,5 +42,7 @@
     <span class="glyphicon glyphicon-earphone"></span>
     <div>Contact</div>
   </a>
+</div> <%-- class="col-md-*" --%>
 
-</div>
+</div> <%-- class="row-fluid" --%>
+</div> <%-- style="text-align: center;" --%>
