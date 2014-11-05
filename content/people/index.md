@@ -10,9 +10,9 @@
 * **Ritu Roy**, MSc, is a staff scientist at the UCSF Helen Diller
   Family Comprehensive Cancer Center. Mrs. Roy has a Master's degree
   in Computer Science from Dibrugarh University, India and the same in
-  Biostatistics from UC Berkeley. As a computational biologist, she
-  has ten years of experience in analysis of high-throughput genomic
-  data at UCSF.  Prior to coming to UCSF, she was a software engineer
+  Biostatistics from UC Berkeley. As a computational biologist at
+  UCSF, she has ten years of experience analyzing high-throughput
+  genomic data.  Prior to coming to UCSF, she was a software engineer
   for seven years.  [Contact Ritu](/contact/index.html)
 
 * **Henrik Bengtsson**, PhD, is an Assistant Professor in Residence in
