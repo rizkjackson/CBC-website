@@ -31,8 +31,7 @@ provide consultation to other UCSF investigators.
 
 
 ## Other resources
-Please contact the [Biostatistics Core] for assistance with requests
-concerning clinical biostatistics.
+Please contact the [Biostatistics Core] for assistance with clinical biostatistics.
 For other types of core services, see [UCSF Cores Search].
 
 
