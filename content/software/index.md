@@ -61,16 +61,11 @@ Perl, Python and R, to name a few.
 
 
 
-
-
 ----------------------------------------
-<section>
- <p id="fn1"><a href="#r1">[1]</a>
-  This was one of the reason Henrik Bengtsson developed the
-  [Aroma Project], which handles tens of thousands of arrays even on
-  systems with limited memory resources.
- </p>
-</section>
+<p id="fn1"><a href="#r1">[1]</a>
+This was one of the reason Henrik Bengtsson developed the
+[Aroma Project], which handles tens of thousands of arrays even on
+systems with limited memory resources.
 
 
 [R]: http://www.r-project.org/
