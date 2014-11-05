@@ -13,4 +13,5 @@ Family Comprehensive Cancer Center, but as time permits, we also
 provide consultation to other UCSF investigators. If you believe we
 can be of help to you, feel free to drop by one of our offices or grab
 one of us in the hallway.  You can of course schedule a meeting by
-email or phone.  Initial discussions are always free.
+[email or phone](/contact/index.html).  Initial discussions are
+always free.
