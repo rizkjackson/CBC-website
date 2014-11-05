@@ -23,9 +23,9 @@ stories <- list(
   <div class="panel panel-default" style="max-width: 480px;">
    <div class="panel-heading" style="font-weight: bold;"><%=story$title%></div>
    <div class="embed-responsive embed-responsive-4by3">
-    <iframe src="https://docs.google.com/presentation/d/<%=story$id%>/embed?start=false&loop=false&delayms=3000"
-  allowfullscreen="true" mozallowfullscreen="true"
-  webkitallowfullscreen="true"></iframe>
+    <iframe src="https://docs.google.com/presentation/d/<%=story$id%>/embed?start=false&amp;loop=false&amp;delayms=3000"
+     mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen>
+    </iframe>
    </div>
   </div>
  </div>
