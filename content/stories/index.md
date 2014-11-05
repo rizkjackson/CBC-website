@@ -1,17 +1,19 @@
 # Stories
 
-## Biomarker for oral squamous cell carcinoma
-<div style="max-width: 480px; max-height:389px;">
+<div class="panel panel-default" style="max-width: 480px;">
+ <div class="panel-heading" style="font-weight: bold;">Biomarker for oral squamous cell carcinoma</div>
  <div class="embed-responsive embed-responsive-4by3">
   <iframe src="https://docs.google.com/presentation/d/1bpjA15DwDVSBFmYFHEXNXNUI6o1vVRJhoidydKrkUIc/embed?start=false&loop=false&delayms=3000"
 allowfullscreen="true" mozallowfullscreen="true"
 webkitallowfullscreen="true"></iframe>
  </div>
 </div>
+
 </br>
 
-## Parent-specific copy numbers
-<div style="max-width: 480px; max-height:389px;">
+
+<div class="panel panel-default" style="max-width: 480px;">
+ <div class="panel-heading" style="font-weight: bold;">Parent-specific copy numbers</div>
  <div class="embed-responsive embed-responsive-4by3">
   <iframe src="https://docs.google.com/presentation/d/1SHJxYP7B8G84Sl9NmkmXGy_eFQoYPUno7U81PI8Gk2c/embed?start=false&loop=false&delayms=3000"
 allowfullscreen="true" mozallowfullscreen="true"
@@ -21,8 +23,8 @@ webkitallowfullscreen="true"></iframe>
 </br>
 
 
-## Ribosome profiling
-<div style="max-width: 480px; max-height:389px;">
+<div class="panel panel-default" style="max-width: 480px;">
+ <div class="panel-heading" style="font-weight: bold;">Ribosome profiling</div>
  <div class="embed-responsive embed-responsive-4by3">
   <iframe src="https://docs.google.com/presentation/d/1DVzDnWIVTRYTaXPVLtOx0muGIa32kn7qY9N7upIvy8s/embed?start=false&loop=false&delayms=3000"
 allowfullscreen="true" mozallowfullscreen="true"
