@@ -1,24 +1,24 @@
 # Software and Computing Resources
 
-## Our software contributions
-In addition to being users, we also contribute to several open-source
-projects including [R] and [Bioconductor] and core member Henrik
-Bengtsson is the creator of the [Aroma Project].  This helps us to keep
-up to date with the field, to get invaluable feedback on our own
-software and work.
+## Our software contributions 
+We contribute to several open-source projects including [R] and
+[Bioconductor] and core member Henrik Bengtsson is the creator of the
+[Aroma Project].  Being parts of these projects helps us to keep up to
+date with the field and to get invaluable feedback on our own software
+and work.
 
-Here is an excerpt of the software tools we have developed:
+Here is a list of software tools that we have developed ourselves or contributed to their development:
 
 * [affxparser]: Software for parsing Affymetrix microarray files.
 * [aroma]: Preprocessing of spotted microarray data.
 * [aroma.affymetrix]: Analysis of small to extremely large Affymetrix microarray data sets.
 * aroma.seq: High-throughput sequence (HT-Seq) analysis in the Aroma framework.  (Pre-release.)
-* [babel]: Ribosome profiling data analysis using the statistical
-  method with the same name.
+* [babel]: Ribosome profiling data analysis using statistical
+  methods with the same name.
 * [DNAcopy]: Circular Binary Segmentation (CBS) method for aCGH copy
   number analysis.
 * [EGAN]: Exploratory Gene Association Networks.
-* [illuminaio]: Software for parsing Affymetrix microarray files.
+* [illuminaio]: Software for parsing Illumina microarray files.
 * [matrixStats]: Fast and memory-efficient mathematical operations on matrices.
 * [partDSA]: Piecewise constant estimation of increasingly complex predictors.
 * [PSCBS]: Parent-specific copy number segmentation using CBS.
@@ -27,38 +27,37 @@ Here is an excerpt of the software tools we have developed:
 * [R.rsp]: Dynamic generation of scientific reports for reproducible research.
 * [sfit]: Multidimensional simplex fitting.
 
-## Scientific Software
+## Software and Reproducible Research 
 One of our priorities is to provide scientifically sound and
-reproducible research results.   In order to achieve this we make use
+reproducible research results.  In order to achieve this we make use
 of a large number of high-quality computational software tools
-provided by the industry and the academic world.  We try to use
-open-source software as far as possible, particularly because it is
+provided by either industry or academia.  We try to use
+open-source software as much as possible, particularly because it is
 key to reproducible research.
 
-## Compute Cluster
-The amount of data being processed in genomic research has grown
-dramatically during the last decade.  It is less than a decade ago
-that Affymetrix SNP array data (~60MB/sample) were considered large.
-Many software tools could only handle 10-20 arrays in multi-sample
-studies&nbsp;<sup><a href="#fn1" id="r1">[1]</a></sup>.
-When high-throughput sequencing (HT-Seq) entered the arena, there was
-a paradigm shift in the amount of data needed to be processed per
-sample.  Sequencing the DNA of a _single human genome_ at 50 times
-coverage produces a _~250GB data file_ of aligned reads.
-Yes, that is a ~4000 times larger file than what we get with
-microarray technologies.  (This does _not_ mean that we get 4000 times
-more "information" from HT-Seq data, but that is a different story).
+## Compute Cluster 
+The amount of data being collected in genomic research has grown
+dramatically.  It has been less than a decade ago since Affymetrix SNP
+array data (~60MB/sample) were considered large.  Many software tools
+could handle only 10-20 arrays in multi-sample studies&nbsp;<sup><a
+href="#fn1" id="r1">[1]</a></sup>.  When high-throughput sequencing
+(HT-Seq) entered the arena, there was a paradigm shift in the amount
+of data that needed to be processed.  Sequencing the DNA of a _single
+human genome_ at 50 times coverage produces a _~250GB data file_ of
+aligned reads.  Yes, that is ~4000 times larger file than what we
+get with microarray technologies.  (This does _not_ mean that we get
+4000 times more "information" from HT-Seq data, but that is a
+different story.)
 
-At the UCSF Helen Diller Family Comprehensive Cancer Center we have
-a large Linux compute cluster (maintained by [Translational
+At the UCSF Helen Diller Family Comprehensive Cancer Center we have a
+large Linux compute cluster (maintained by [Translational
 Informatics]), which, together with tailored implementations (e.g. our
-aroma.seq and aroma.affymetrix), allows us to process a large amount
-of data in a highly parallel fashion.
+aroma.seq and aroma.affymetrix tools), allows us to process large
+amounts of data in a highly parallel fashion.
 
-## Programming Languages
-We are using several state-of-the-art tools for our daily work.
-We are experienced in programming languages such as C, C++,
-Java, Perl, Python and R, to name a few.
+## Programming Languages 
+We are experienced in programming languages such as C, C++, Java,
+Perl, Python and R, to name a few.
 
 
 
