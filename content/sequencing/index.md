@@ -2,9 +2,9 @@
 
 We have developed robust sequencing pipelines for the following cases:
 
-* DNA copy number, either total copy number or parent-specific
-* RNA sequencing
-* Exome Sequencing
+* DNA-Seq
+* RNA-Seq
+* Exome-Seq
 * Ribosome Profiling
 
 We develop new pipelines as needed, so feel free to come to us with
