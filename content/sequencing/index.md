@@ -1,4 +1,4 @@
-# Sequencing
+# High-throughput Sequencing (HT-Seq)
 
 We have developed robust sequencing pipelines for the following cases:
 
