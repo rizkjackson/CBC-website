@@ -28,7 +28,7 @@
   a focus on applications of copy-number analysis to cancer genomics
   research.  He has recently developed the aroma.seq tools for
   analyzing new-generation sequencing data.
-  See alsoHenrik's [UCSF
+  See also Henrik's [UCSF
   Profile](http://profiles.ucsf.edu/henrik.bengtsson) or
   [contact him](/contact/index.html).
 
