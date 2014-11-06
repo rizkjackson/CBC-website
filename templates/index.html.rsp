@@ -61,13 +61,13 @@
   <%@endif%>
   </div> <%-- class="container" --%>
 
-  <div id="push"></div>
 </div> <%-- id="wrap" --%>
 
 
 <%----------------------------------------------------------------------------
  FOOTER
  ----------------------------------------------------------------------------%>
+<div id="push"></div> <%-- Push footer to the bottom of the page --%>
 <div id="footer" style="height: auto;">
   <div class="container">
     <%@include file="footer.html.rsp"%>
@@ -77,6 +77,16 @@
   <%--- Placed at the end of the document so the pages load faster ---%>
   <script src="<%@string name="jquery_url"%>/jquery.min.js"></script>
   <script src="<%@string name="bootstrap_url"%>/js/bootstrap.min.js"></script>
+  <%-- Auto-adjust height of navigation bar in case it
+       word wraps into two or more rows or some devices --%>
+  <script>
+    $(document).ready(function(){
+        $(document.body).css('padding-top', $('#topnavbar').height() + 10);
+        $(window).resize(function(){
+            $(document.body).css('padding-top', $('#topnavbar').height() + 10);
+        });
+    });
+  </script>
   <%-- <%@include file="link-annotation.html.rsp"%> --%>
   <%@include file="google-analytics.html.rsp"%>
   <%-- Include any extras that the page wish to add to the end --%>
