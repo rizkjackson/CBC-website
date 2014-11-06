@@ -3,42 +3,42 @@
 
 <div class="col-md-12">
 
-  <a href="<%=pathToRoot%>people/index.html" class="btn btn-default btn-lg" style="width: 7em; margin: 0.3ex; padding: 0.6ex 0.2ex 0.6ex 0.2ex; text-align: center;">
+  <a href="<%=pathToRoot%>people/index.html" class="btn btn-default btn-lg" style="width: 7em; margin: 0.3ex 0.1ex 0.3ex 0.1ex; padding: 0.6ex 0.1ex 0.6ex 0.1ex; text-align: center;">
     <span class="glyphicon glyphicon-user"></span>
     <div>People</div>
   </a>
 
-  <a href="<%=pathToRoot%>consultation/index.html" class="btn btn-default btn-lg" style="width: 7em; margin: 0.3ex; padding: 0.6ex 0.2ex 0.6ex 0.2ex; text-align: center;">
+  <a href="<%=pathToRoot%>consultation/index.html" class="btn btn-default btn-lg" style="width: 7em; margin: 0.3ex 0.1ex 0.3ex 0.1ex; padding: 0.6ex 0.1ex 0.6ex 0.1ex; text-align: center;">
     <span class="glyphicon glyphicon-stats"></span>
     <div>Consultation</div>
   </a>
 
-  <a href="<%=pathToRoot%>sequencing/index.html" class="btn btn-default btn-lg" style="width: 7em; margin: 0.3ex; padding: 0.6ex 0.2ex 0.6ex 0.2ex; text-align: center;">
+  <a href="<%=pathToRoot%>sequencing/index.html" class="btn btn-default btn-lg" style="width: 7em; margin: 0.3ex 0.1ex 0.3ex 0.1ex; padding: 0.6ex 0.1ex 0.6ex 0.1ex; text-align: center;">
     <span class="glyphicon glyphicon-flash"></span>
     <div>Sequencing</div>
   </a>
 
-  <a href="<%=pathToRoot%>software/index.html" class="btn btn-default btn-lg" style="width: 7em; margin: 0.3ex; padding: 0.6ex 0.2ex 0.6ex 0.2ex; text-align: center;">
+  <a href="<%=pathToRoot%>software/index.html" class="btn btn-default btn-lg" style="width: 7em; margin: 0.3ex 0.1ex 0.3ex 0.1ex; padding: 0.6ex 0.1ex 0.6ex 0.1ex; text-align: center;">
     <span class="glyphicon glyphicon-record"></span>
     <div>Software</div>
   </a>
 
-  <a href="<%=pathToRoot%>stories/index.html" class="btn btn-default btn-lg" style="width: 7em; margin: 0.3ex; padding: 0.6ex 0.2ex 0.6ex 0.2ex; text-align: center;">
+  <a href="<%=pathToRoot%>stories/index.html" class="btn btn-default btn-lg" style="width: 7em; margin: 0.3ex 0.1ex 0.3ex 0.1ex; padding: 0.6ex 0.1ex 0.6ex 0.1ex; text-align: center;">
     <span class="glyphicon glyphicon-film"></span>
     <div>Stories</div>
   </a>
 
-  <a href="<%=pathToRoot%>education/index.html" class="btn btn-default btn-lg" style="width: 7em; margin: 0.3ex; padding: 0.6ex 0.2ex 0.6ex 0.2ex; text-align: center;">
+  <a href="<%=pathToRoot%>education/index.html" class="btn btn-default btn-lg" style="width: 7em; margin: 0.3ex 0.1ex 0.3ex 0.1ex; padding: 0.6ex 0.1ex 0.6ex 0.1ex; text-align: center;">
     <span class="glyphicon glyphicon-edit"></span>
     <div>Education</div>
   </a>
 
-  <a href="<%=pathToRoot%>publications/index.html" class="btn btn-default btn-lg" style="width: 7em; margin: 0.3ex; padding: 0.6ex 0.2ex 0.6ex 0.2ex; text-align: center;">
+  <a href="<%=pathToRoot%>publications/index.html" class="btn btn-default btn-lg" style="width: 7em; margin: 0.3ex 0.1ex 0.3ex 0.1ex; padding: 0.6ex 0.1ex 0.6ex 0.1ex; text-align: center;">
     <span class="glyphicon glyphicon-file"></span>
     <div>Publications</div>
   </a>
 
-  <a href="<%=pathToRoot%>contact/index.html" class="btn btn-default btn-lg" style="width: 7em; margin: 0.3ex; padding: 0.6ex 0.2ex 0.6ex 0.2ex; text-align: center;">
+  <a href="<%=pathToRoot%>contact/index.html" class="btn btn-default btn-lg" style="width: 7em; margin: 0.3ex 0.1ex 0.3ex 0.1ex; padding: 0.6ex 0.1ex 0.6ex 0.1ex; text-align: center;">
     <span class="glyphicon glyphicon-earphone"></span>
     <div>Contact</div>
   </a>
