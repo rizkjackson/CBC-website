@@ -24,7 +24,8 @@ Here is a list of software tools that we have developed ourselves or contributed
 * [PSCBS]: Parent-specific copy number segmentation using CBS.
 * [QDNAseq]: Quantitative DNA sequencing for chromosomal aberrations using shallow DNA-Seq.
 * [R.matlab]: R-to-MATLAB connectivity and methods for reading and writing MAT files.
-* [R.rsp]: Dynamic generation of scientific reports for reproducible research.
+* [R.rsp]: Dynamic generation of scientific reports for reproducible
+  research.&nbsp;<sup><a href="#fn1" id="r1">[1]</a></sup>
 * [sfit]: Multidimensional simplex fitting.
 
 ## Software and Reproducible Research 
@@ -40,7 +41,7 @@ The amount of data being collected in genomic research has grown
 dramatically.  It has been less than a decade ago since Affymetrix SNP
 array data (~60MB/sample) were considered large.  Many software tools
 could handle only 10-20 arrays in multi-sample studies&nbsp;<sup><a
-href="#fn1" id="r1">[1]</a></sup>.  When high-throughput sequencing
+href="#fn2" id="r2">[2]</a></sup>.  When high-throughput sequencing
 (HT-Seq) entered the arena, there was a paradigm shift in the amount
 of data that needed to be processed.  Sequencing the DNA of a _single
 human genome_ at 50 times coverage produces a _~250GB data file_ of
@@ -62,10 +63,22 @@ Perl, Python and R, to name a few.
 
 
 ----------------------------------------
-<p id="fn1"><a href="#r1">[1]</a>
+
+<div style="font-size: small;">
+<em>Footnotes:</em></br>
+
+<span id="fn1"><a href="#r1">[1]</a>
+This site was written using RSP-embedded Markdown and compiled with
+the R.rsp package.</br></span>
+
+
+<span id="fn2"><a href="#r2">[2]</a>
 This was one of the reason Henrik Bengtsson developed the
-[Aroma Project], which handles tens of thousands of arrays even on
-systems with limited memory resources.
+<a href="http://www.aroma-project.org/">Aroma Project</a>, which
+handles tens of thousands of arrays even on systems with limited
+memory resources.</br></span>
+
+</div>
 
 
 [R]: http://www.r-project.org/
