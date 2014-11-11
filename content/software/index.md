@@ -40,15 +40,19 @@ key to reproducible research.
 The amount of data being collected in genomic research has grown
 dramatically.  It has been less than a decade ago since Affymetrix SNP
 array data (~60MB/sample) were considered large.  Many software tools
-could handle only 10-20 arrays in multi-sample studies&nbsp;<sup><a
-href="#fn2" id="r2">[2]</a></sup>.  When high-throughput sequencing
+could handle only 10-20 arrays in multi-sample studies.  This was one
+of the reason Henrik Bengtsson developed the <a
+href="http://www.aroma-project.org/">Aroma Project</a>, which handles
+tens of thousands of arrays even on systems with limited memory
+resources.  When high-throughput sequencing
 (HT-Seq) entered the arena, there was a paradigm shift in the amount
 of data that needed to be processed.  Sequencing the DNA of a _single
 human genome_ at 50 times coverage produces a _~250GB data file_ of
 aligned reads.  Yes, that is ~4000 times larger file than what we
 get with microarray technologies.  (This does _not_ mean that we get
 4000 times more "information" from HT-Seq data, but that is a
-different story.)
+different story.)  We are now extending the Aroma Project for it to
+support HT-Seq analysis as well.
 
 At the UCSF Helen Diller Family Comprehensive Cancer Center we have a
 large Linux compute cluster (maintained by [Translational
@@ -70,14 +74,6 @@ Perl, Python and R, to name a few.
 <span id="fn1"><a href="#r1">[1]</a>
 This site was written using RSP-embedded Markdown and compiled with
 the R.rsp package.</br></span>
-
-
-<span id="fn2"><a href="#r2">[2]</a>
-This was one of the reason Henrik Bengtsson developed the
-<a href="http://www.aroma-project.org/">Aroma Project</a>, which
-handles tens of thousands of arrays even on systems with limited
-memory resources.</br></span>
-
 </div>
 
 
