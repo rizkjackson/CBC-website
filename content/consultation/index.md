@@ -1,24 +1,31 @@
 # Consultation
 
-## Rates
+## Activities
 
 <%--- Exactly what does the below mean? Does it mean that we do grant
 proposal for free? ---%> 
 
-Our activities include, but are not limited to, scientific
-consultation, study design, data analysis, software development and
-grant and manuscript assistance.
+Our activities include, but are not limited to:
+* scientific consultation
+* study design
+* data analysis 
+* software development
+* grant assistance
+* manuscript assistance
 
-Grant assistance to Cancer Center members is covered by the _Cancer
-Center Support Grant_.  For other projects, we provide consultation of
-up to one hour per project at no cost.  Consultations beyond one hour,
-and all data analyses, are handled through a recharge mechanism.  For
-smaller projects, we charge on an hourly basis.  For larger projects,
-we prefer to be paid on a percentage-effort basis.
+## Charges
+
+We provide consultation of up to one hour per project at no cost.
+Consultations beyond one hour, and all data analyses, are handled
+through a recharge mechanism.  For smaller projects, we charge on an
+hourly basis.  For larger collaborative projects, we prefer to be paid
+on a percentage-effort basis.
+
+Grant assistance to Cancer Center members is free.
 
 Our resources are prioritized toward members of the UCSF Helen Diller
 Family Comprehensive Cancer Center, but as time permits, we also
-provide consultation to other UCSF investigators.
+provide support to other UCSF investigators.
 
 <%--- KEEP?!? [http://cancer.ucsf.edu/research/cores/computational-biology/]
 * Internal users are funded by UCSF sources (or other UC campus
