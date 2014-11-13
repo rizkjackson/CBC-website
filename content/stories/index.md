@@ -1,5 +1,5 @@
 # Stories
-
+Below are a few examples of successful collaborations and research projects.
 <%
 stories <- list(
   list(
