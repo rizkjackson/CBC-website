@@ -17,7 +17,7 @@ For example:
  - Copy number arrays
 
 If you need help analyzing these or other types of data, don't
-hesitate to [contact] us. We are here to support you And your research.
+hesitate to [contact] us. We are here to support you and your research.
 
 We also have long-term experience in methods and pipeline development,
 which sometimes is needed, particularly in novel research projects.
