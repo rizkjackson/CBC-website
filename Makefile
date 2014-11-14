@@ -51,11 +51,8 @@ build:
 #  Host cbc.ucsf.edu
 #    User <username on cbc.ucsf.edu> 
 
-## alpha:
-## 	rsync -avvz --perms --chmod=ugo+rx --progress html/ cbc.ucsf.edu:/var/www-cbc/
-
 publish:
-	rsync -avvz --perms --chmod=ugo+rx --progress html/ cbc.ucsf.edu:/var/www-cbc/
+	rsync -avvz --exclude '*~' --perms --chmod=ugo+rx --progress html/ cbc.ucsf.edu:/var/www-cbc/
 
 
 #=====================================================================
