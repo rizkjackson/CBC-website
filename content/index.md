@@ -9,8 +9,8 @@ are not limited to, scientific consultation, study design, data
 analysis, software development and grant and manuscript assistance.
 
 Our resources are prioritized toward members of the UCSF Helen Diller
-Family Comprehensive Cancer Center, but as time permits, we also
-provide support for other investigators. If you believe we
+Family Comprehensive Cancer Center, but as time permits, we provide
+support also for other investigators. If you believe we
 can be of help to you, feel free to drop by one of our offices or grab
 one of us in the hallway.  You can of course schedule a meeting by
 [email or phone](/contact/index.html).  Initial discussions are
