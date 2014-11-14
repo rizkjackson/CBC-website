@@ -5,12 +5,12 @@ wide variety of "omics" technologies, sources and brands, including
 high-throughput sequencing, microarrays and imaging to name a few.
 For example:
 
-* High-throughput sequencing (HT-Seq):
+* High-throughput sequencing (HT-Seq)
  - DNA-Seq
  - RNA-Seq
  - Exome-Seq
  - Ribosome Profiling
-* Microarrays:
+* Microarrays
  - Gene expression arrays
  - Exon arrays
  - Genotyping arrays
