@@ -184,6 +184,14 @@ buildPage <- function(src, path=".", skip=TRUE) {
   # Read RSP Markdown content
   body <- readLines(pathnameS, warn=FALSE)
 
+  # Append global references, iff exists
+  pathnameR <- grep("references.md.rsp$", pathnamesR, value=TRUE)
+  if (length(pathnameR) > 0L) {
+    refs <- readLines(pathnameR, warn=FALSE)
+    body <- c(body, "", refs)
+    mcat("Added global references.")
+  }
+
   # Extract page title
   title <- grep("^#[ ]*", body, value=TRUE)[1L]
   title <- trim(gsub("^#[ ]*", "", title))
