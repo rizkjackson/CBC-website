@@ -13,19 +13,24 @@ Our activities include, but are not limited to:
 * grant assistance
 * manuscript assistance
 
+Our resources are prioritized toward [members] of the UCSF Helen Diller
+Family Comprehensive Cancer Center.
+As time permits, we also provide support to investigators in the wider
+UCSF organisation (including its [affiliates]) as well as researchers
+outside of the UCSF.
+
+
 ## Charges
 
 We provide consultation of up to one hour per project at no cost.
 Consultations beyond one hour, and all data analyses, are handled
-through a recharge mechanism.  For smaller projects, we charge on an
-hourly basis.  For larger collaborative projects, we prefer to be paid
-on a percentage-effort basis.
+through a recharge mechanism.
+For smaller projects, we charge on an hourly basis.
+For larger collaborative projects, payment on a percentage-effort
+basis is prefered.
+**Grant assistance to Cancer Center members is always free of
+charge.**
 
-Grant assistance to Cancer Center members is free.
-
-Our resources are prioritized toward members of the UCSF Helen Diller
-Family Comprehensive Cancer Center, but as time permits, we also
-provide support to other UCSF investigators.
 
 <%--- KEEP?!? [http://cancer.ucsf.edu/research/cores/computational-biology/]
 * Internal users are funded by UCSF sources (or other UC campus
@@ -44,3 +49,5 @@ For other types of core services, see [UCSF Cores Search].
 
 [Biostatistics Core]: http://cancer.ucsf.edu/research/cores/biostatistics
 [UCSF Cores Search]: http://cores.ucsf.edu/
+[members]: http://cancer.ucsf.edu/people/membership
+[affiliates]: http://www.ucsf.edu/locations/affiliates
