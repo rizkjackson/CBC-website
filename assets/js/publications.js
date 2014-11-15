@@ -13,7 +13,7 @@ function add_profiles_user_content (prefix, identifier_type, identifier) {
     return('#' + profiles_id(name));
   }
 
-  $.getJSON('http://api.profiles.ucsf.edu/json/v2/?source=JSON_API_v2_example_script_change_this_in_your_own_app&'
+  $.getJSON('http://api.profiles.ucsf.edu/json/v2/?source=cbc.ucsf.edu&'
   + identifier_type + '=' + identifier + '&publications=full&callback=?', function(response) {
     if (response) {
       if (response.error) { // if UCSF Profiles reports an error, can do something with that here
