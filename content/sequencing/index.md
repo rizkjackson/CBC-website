@@ -1,9 +1,9 @@
 # Sequencing, microarrays, and other technologies
 
-We have the expertice and the capabilities of analyzing data from a
+We have the expertise and the capabilities of analyzing data from a
 wide variety of "omics" technologies, sources and brands, including
 high-throughput sequencing, microarrays and imaging to name a few.
-For example:
+These include:
 
 * High-throughput sequencing (HT-Seq)
  - DNA-Seq
@@ -15,9 +15,10 @@ For example:
  - Exon arrays
  - Genotyping arrays
  - Copy number arrays
+* ... and much more.
 
-If you need help analyzing these or other types of data, don't
-hesitate to [contact] us. We are here to support you and your research.
+If you need help, don't hesitate to [contact] us. We are here to
+support you and your research.
 
 We also have long-term experience in methods and pipeline development,
 which sometimes is needed, particularly in novel research projects.
