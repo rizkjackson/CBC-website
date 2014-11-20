@@ -1,4 +1,22 @@
 <nav class="navbar navbar-default navbar-fixed-top" role="navigation" id="topnavbar">
+  <%-- USCF top banner [http://identity.ucsf.edu/website/] --%>
+  <div class="top-banner logo">
+    <div class="inner">
+      <div>
+        <a class="logotype" href="http://www.ucsf.edu/">
+          <span>University of California San Francisco</span>
+        </a>
+      </div>
+      <div class="nav">
+        <ul class="top-banner-menu">
+          <li><a href="http://www.ucsf.edu/about">About UCSF</a></li>
+          <li><a href="http://www.ucsf.edu/search">Search UCSF</a></li>
+          <li><a href="http://www.ucsfhealth.org/">UCSF Medical Center</a></li>
+        </ul>
+      </div>
+    </div>
+  </div> 
+  <%-- CBC navigator --%>
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">

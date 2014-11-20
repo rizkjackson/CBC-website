@@ -17,6 +17,8 @@
   <meta name="author" content="<%@meta name="author"%>">
   <link rel="shortcut icon" href="<%=pathToRoot%>assets/ico/favicon.ico">
   <title><%@meta name="title"%></title>
+  <%-- Include the UCSF Identity stylesheets --%>
+  <link href="<%=pathToRoot%>assets/css/banners.css" rel="stylesheet">
   <%-- Include the Bootstrap stylesheets --%>
   <link href="<%=pathToRoot%>assets/css/bootstrap.min.css" rel="stylesheet">
   <%-- Custom styles for this template --%>
