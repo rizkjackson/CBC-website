@@ -19,8 +19,13 @@
 </div>
 
 ## Ritu Roy
-Please see [Cancer Center
-Profile](http://cancer.ucsf.edu/people/profiles/roy_ritu.3644)
+<div id="ritu_profiles_publications">
+<ol>
+  <li>
+    <em>Retrieving publications from the <a href="http://profiles.ucsf.edu/ritu.roy">UCSF Profile</a> database...</em>
+  </li>
+</ol>
+</div>
 
 
 <%-- Append scripts to the end of the page --%>
@@ -30,6 +35,6 @@ Profile](http://cancer.ucsf.edu/people/profiles/roy_ritu.3644)
 <script>
   add_profiles_user_content('adam', 'adam.olshen')
   add_profiles_user_content('henrik', 'henrik.bengtsson')
-  /* add_profiles_user_content('ritu', 'royr@cc.ucsf.edu') */
+  add_profiles_user_content('ritu', 'ritu.roy')
 </script>
 "%>
