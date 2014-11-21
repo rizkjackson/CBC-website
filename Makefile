@@ -43,6 +43,17 @@ build:
 	$(R_SCRIPT) "R/build"
 
 
+spell:
+	aspell --mode=html list < html/index.html | sort -u
+	aspell --mode=html list < html/consultation/index.html | sort -u
+	aspell --mode=html list < html/contact/index.html | sort -u
+	aspell --mode=html list < html/people/index.html | sort -u
+	aspell --mode=html list < html/publications/index.html | sort -u
+	aspell --mode=html list < html/sequencing/index.html | sort -u
+	aspell --mode=html list < html/software/index.html | sort -u
+	aspell --mode=html list < html/stories/index.html | sort -u
+
+
 #=====================================================================
 # Publish (=go live!)
 #=====================================================================

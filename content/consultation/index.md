@@ -16,7 +16,7 @@ Our activities include, but are not limited to:
 Our resources are prioritized toward [members] of the UCSF Helen Diller
 Family Comprehensive Cancer Center.
 As time permits, we also provide support to investigators in the wider
-UCSF organisation (including its [affiliates]) as well as researchers
+UCSF organization (including its [affiliates]) as well as researchers
 outside of the UCSF.
 
 
@@ -27,7 +27,7 @@ Consultations beyond one hour, and all data analyses, are handled
 through a recharge mechanism.
 For smaller projects, we charge on an hourly basis.
 For larger collaborative projects, payment on a percentage-effort
-basis is prefered.
+basis is preferred.
 **Grant assistance to Cancer Center members is always free of
 charge.**
 
