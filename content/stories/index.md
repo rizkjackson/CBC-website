@@ -3,7 +3,7 @@
 Below are a few examples of successful collaborations and research
 projects.  
 
-</br>
+<br>
 
 <%
 stories <- list(
