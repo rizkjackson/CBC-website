@@ -56,6 +56,11 @@
     text-decoration: none;
 }
 
+.top-banner a:focus {
+    color: #cccccc;
+    text-decoration: none;
+}
+
 .top-banner.logo .inner {
     height: 40px;
     background-image: url("../images/ucsf-logo-banner_179x88.png");
