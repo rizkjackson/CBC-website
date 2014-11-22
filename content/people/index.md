@@ -14,9 +14,10 @@
   UCSF, she has ten years of experience analyzing high-throughput
   genomic data.  Prior to coming to UCSF, she was a software engineer
   for seven years.
-  See also Ritu's [Cancer Center
-  Profile](http://cancer.ucsf.edu/people/profiles/roy_ritu.3644) or
-  [contact] her.
+  See also Ritu's
+  [UCSF Profile](http://profiles.ucsf.edu/ritu.roy),
+  [Cancer Center Profile](http://cancer.ucsf.edu/people/profiles/roy_ritu.3644)
+  or [contact] her.
 
 * **Henrik Bengtsson**, PhD, is an Assistant Professor in Residence in
   the UCSF Department of Epidemiology and Biostatistics. He obtained
@@ -28,8 +29,8 @@
   a focus on applications of copy-number analysis to cancer genomics
   research.  He has recently developed the aroma.seq tools for
   analyzing new-generation sequencing data.
-  See also Henrik's [UCSF
-  Profile](http://profiles.ucsf.edu/henrik.bengtsson)
+  See also Henrik's
+  [UCSF Profile](http://profiles.ucsf.edu/henrik.bengtsson)
   or [contact] him.
 
 * **Adam Olshen**, PhD and Director of the Core, is Professor In
@@ -42,6 +43,7 @@
   for analyzing ribosome profiling data. He has extensive experience
   in the analysis of genomic, proteomic, and other types of
   high-throughput biological data.
-  See also Adam's [Cancer Center
-  Profile](http://cancer.ucsf.edu/people/profiles/olshen_adam.3576)
+  See also Adam's
+  [UCSF Profile](http://profiles.ucsf.edu/adam.olshen),
+  [Cancer Center Profile](http://cancer.ucsf.edu/people/profiles/olshen_adam.3576)
   or [contact] him.
