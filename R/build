@@ -225,7 +225,16 @@ buildPage <- function(src, path=".", skip=TRUE) {
   mcat("Markdown -> HTML...done\n")
 
   # Patches
-  body <- gsub("(<p>(<address>)|(</address>)</p>)", "\\2", body)
+  body <- strsplit(body, split="\n", fixed=TRUE)[[1]]
+  body0 <<- body
+
+  tags <- c("address", "small")
+  pattern <- sprintf("^<p><(%s)>$", paste(tags, collapse="|"))
+  body <- gsub(pattern, "<\\1>", body)
+  pattern <- sprintf("^</(%s)></p>$", paste(tags, collapse="|"))
+  body <- gsub(pattern, "</\\1>", body)
+  body <- paste(body, collapse="\n")
+  body <- paste0(body, "\n")
 
   # Compile RSP HTML with content
   mcat("HTML + template -> HTML...\n")
