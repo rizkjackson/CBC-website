@@ -23,6 +23,7 @@ R_SCRIPT = Rscript
 
 # Capabilities
 HAS_ASPELL := $(shell $(R_SCRIPT) -e "cat(Sys.getenv('HAS_ASPELL', !is.na(utils:::aspell_find_program('aspell'))))")
+HTML_FILES := $(wildcard html/*.html html/*/*.html html/*/*/*.html)
 
 
 #=====================================================================
@@ -44,14 +45,13 @@ build:
 
 
 spell:
-	aspell --mode=html list < html/index.html | sort -u
-	aspell --mode=html list < html/consultation/index.html | sort -u
-	aspell --mode=html list < html/contact/index.html | sort -u
-	aspell --mode=html list < html/people/index.html | sort -u
-	aspell --mode=html list < html/publications/index.html | sort -u
-	aspell --mode=html list < html/sequencing/index.html | sort -u
-	aspell --mode=html list < html/software/index.html | sort -u
-	aspell --mode=html list < html/stories/index.html | sort -u
+	@echo $(HTML_FILES)
+	$(RM) spell-words.txt
+	for file in $(HTML_FILES); do \
+	  echo file=$$file; \
+          $(ASPELL) --mode=html list < $$file >> spell-words.txt; \
+	done
+	cat spell-words.txt | sort -u
 
 
 #=====================================================================
