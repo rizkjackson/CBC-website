@@ -5,4 +5,7 @@
 <%@string site_motto="We are here to help you advance your research!"%>
 <%@string site_image="assets/images/combio3.gif"%>
 <%@meta author="Henrik Bengtsson"%>
+<%@meta keywords="UCSF, University of California San Francisco, CBC, Computational Biology Core, HDFCCC, Helen Diller Family Comprehensive Cancer Center"%>
 <%@string google_analytics_id="UA-56080795-1"%>
+<%@string bootstrap_url="http://netdna.bootstrapcdn.com/bootstrap/3.2.0"%>
+<%@string jquery_url="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1"%>
