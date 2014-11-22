@@ -49,7 +49,7 @@ spell:
 	$(RM) spell-words.txt
 	for file in $(HTML_FILES); do \
 	  echo file=$$file; \
-          $(ASPELL) --mode=html list < $$file >> spell-words.txt; \
+          $(ASPELL) --personal=./.aspell.en_US.pws --mode=html list < $$file >> spell-words.txt; \
 	done
 	cat spell-words.txt | sort -u
 
