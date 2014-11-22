@@ -69,11 +69,11 @@ Perl, Python and R, to name a few.
 ----------------------------------------
 
 <div style="font-size: small;">
-<em>Footnotes:</em></br>
+<em>Footnotes:</em><br>
 
 <span id="fn1"><a href="#r1">[1]</a>
 This site was written using RSP-embedded Markdown and compiled with
-the R.rsp package.</br></span>
+the R.rsp package.<br></span>
 </div>
 
 
