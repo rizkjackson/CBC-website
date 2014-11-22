@@ -60,6 +60,9 @@ check_links:
 check_html:
 	$(R_SCRIPT) "R/w3c-html"
 
+check_css:
+	$(R_SCRIPT) -e "browseURL('http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fcbc.ucsf.edu')"
+
 
 
 #=====================================================================
