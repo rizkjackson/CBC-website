@@ -224,11 +224,9 @@ buildPage <- function(src, path=".", skip=TRUE) {
   body <- markdownToHTML(text=body, options="fragment_only")
   mcat("Markdown -> HTML...done\n")
 
-  # Patches
+  # Patches incorrect addition of <p>...</p> by Markdown compiler
   body <- strsplit(body, split="\n", fixed=TRUE)[[1]]
-  body0 <<- body
-
-  tags <- c("address", "small")
+  tags <- c("address", "section", "small")
   pattern <- sprintf("^<p><(%s)>$", paste(tags, collapse="|"))
   body <- gsub(pattern, "<\\1>", body)
   pattern <- sprintf("^</(%s)></p>$", paste(tags, collapse="|"))
