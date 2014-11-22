@@ -1,10 +1,12 @@
 <%@include file="config.rsp"%>
 <%@ifeq page=""%>
-<%@string label="${site_acronym}"%>
+<%@string short_title="${site_acronym}"%>
+<%@string full_title="UCSF Computational Biology Core"%>
 <%@else%>
-<%@string label="${site_acronym}: ${page}"%>
+<%@string short_title="${site_acronym}: ${page}"%>
+<%@string full_title="UCSF Computational Biology Core (CBC): ${page}"%>
 <%@endif%>
-<%@meta title="${label}"%>
+<%@meta title="${short_title}"%>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,7 +16,7 @@
   <meta name="author" content="<%@meta name="author"%>">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" href="<%=pathToRoot%>assets/ico/favicon.ico">
-  <title><%@meta name="title"%></title>
+  <title title="<%@string name="full_title"%>"><%@meta name="title"%></title>
   <%-- Include the UCSF Identity stylesheets --%>
   <link href="<%=pathToRoot%>assets/css/banners.css" rel="stylesheet">
   <%-- Include the Bootstrap stylesheets --%>
