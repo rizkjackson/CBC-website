@@ -37,8 +37,9 @@
 <div id="wrap">
 
 <%-- HDFCC logo --%>
-<img src="<%=pathToRoot%>assets/images/UCSF_Diller_navy_RGB72dpi.png"
-     style="margin-left: 16px; margin-bottom: 2ex; width: 200px;">
+<img id="sublogo" src="../assets/images/UCSF_Diller_navy_RGB72dpi.png"
+     style="visibility: hidden; margin-left: 16px; margin-bottom: 2ex;
+     width: 230px; height: 0px;">
 
   <div class="container">
   <%@ifeq page=""%>

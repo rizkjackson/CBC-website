@@ -13,6 +13,13 @@ $(window).load(function() {
     if (navbar.length > 0) {
       offset = navbar.height() + offset;
     }
+
+    var sublogo = $("#sublogo");
+    if (sublogo.length > 0) {
+      sublogo.css('height', 'auto');
+      sublogo.css('visibility', 'visible');
+    }
+
     var targetOffset = first.offset().top - offset;
     this.scroll(0, targetOffset);
   }
