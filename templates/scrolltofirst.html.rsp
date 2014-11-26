@@ -25,6 +25,13 @@ $(window).load(function() {
 
     var targetOffset = first.offset().top - offset;
     this.scroll(0, targetOffset);
+
+//    var totalheight = $('body').height();
+//    var bodyheight = $('#wrap').height();
+//    var sublogoheight = $('#sublogocontainer').height();
+//    if (bodyheight - sublogoheight > totalheight) {
+//      this.scroll(0, targetOffset);
+//    }
   }
 });
 </script>
