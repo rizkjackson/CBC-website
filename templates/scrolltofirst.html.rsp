@@ -7,6 +7,7 @@ $(window).load(function() {
   if (first.length == 0) {
     first = $("jumbotron");
   }
+
   if (first.length > 0) {
     var offset = 20;
     var navbar = $("#topnavbar");
@@ -14,7 +15,7 @@ $(window).load(function() {
       offset = navbar.height() + offset;
     }
 
-    offset = first.offset().top;
+    var offsetBefore = first.offset().top;
 
     var sublogo = $("#sublogo");
     if (sublogo.length > 0) {
@@ -23,15 +24,26 @@ $(window).load(function() {
       sublogo.css('visibility', 'visible');
     }
 
-    var targetOffset = first.offset().top - offset;
-    this.scroll(0, targetOffset);
+    var offsetAfter = first.offset().top;
+    var shift = offsetAfter - offset;
 
-//    var totalheight = $('body').height();
-//    var bodyheight = $('#wrap').height();
-//    var sublogoheight = $('#sublogocontainer').height();
-//    if (bodyheight - sublogoheight > totalheight) {
-//      this.scroll(0, targetOffset);
-//    }
-  }
+    var pushOffset = $("#push").offset().top;
+    var totalHeight = this.innerHeight;
+    // alert(
+    // "totalHeight: " + totalHeight + ",\n" +
+    // "pushOffset: " + pushOffset + ",\n" +
+    // "shift: " + shift + ",\n" +
+    // ""
+    // );
+
+    // Do we need to add extra space at the bottom?
+    // If not done, the page won't scroll as much as we want
+    var fillerHeight = pushOffset - totalHeight - shift;
+    if (fillerHeight < 0) {
+      $("#filler").height(-fillerHeight);
+    }
+
+    this.scroll(0, shift);
+  } // if (first.length > 0)
 });
 </script>

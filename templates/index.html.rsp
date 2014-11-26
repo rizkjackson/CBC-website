@@ -72,6 +72,10 @@
 
 </div> <%-- id="wrap" --%>
 
+<%-- Component used to expand such that it's possible 
+     to scroll the first H1 all the way to the top --%>
+<div id="filler"></div>
+
 
 <%----------------------------------------------------------------------------
  FOOTER
