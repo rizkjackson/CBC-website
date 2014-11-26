@@ -7,14 +7,9 @@ $(window).load(function() {
   if (first.length == 0) first = $("h2:first");
 
   if (first.length > 0) {
-    var offset = 20;
-    var navbar = $("#topnavbar");
-    if (navbar.length > 0) {
-      offset = navbar.height() + offset;
-    }
-
     var offsetBefore = first.offset().top;
 
+    // Display sub-logo
     var sublogo = $("#sublogo");
     if (sublogo.length > 0) {
       sublogo.css('height', 'auto');
@@ -23,24 +18,18 @@ $(window).load(function() {
     }
 
     var offsetAfter = first.offset().top;
-    var shift = offsetAfter - offset;
-
-    var pushOffset = $("#push").offset().top;
-    var totalHeight = this.innerHeight;
-    // alert(
-    // "totalHeight: " + totalHeight + ",\n" +
-    // "pushOffset: " + pushOffset + ",\n" +
-    // "shift: " + shift + ",\n" +
-    // ""
-    // );
+    var shift = offsetAfter - offsetBefore;
 
     // Do we need to add extra space at the bottom?
     // If not done, the page won't scroll as much as we want
-    var fillerHeight = pushOffset - totalHeight - shift;
-    if (fillerHeight < 0) {
-      $("#filler").height(-fillerHeight);
+    var pushOffset = $("#push").offset().top;
+    var totalHeight = this.innerHeight;
+    var available = pushOffset - totalHeight;
+    if (available < shift) {
+      $("#filler").height(shift-available);
     }
 
+    // Scroll such that the H1 header is at the top
     this.scroll(0, shift);
   } // if (first.length > 0)
 });
