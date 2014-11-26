@@ -2,7 +2,7 @@
 
 ## Core members
 
-<img src="<%=pathToRoot%>assets/images/combio3.gif" 
+<img src="<%=pathTo('assets/images/combio3.gif')%>" 
      class="img-rounded img-responsive"
      style="max-height: 200px; margin-right: 40px; margin-bottom: 20px"
      alt="Core members">

@@ -25,4 +25,4 @@ which sometimes is needed, particularly in novel research projects.
 We typically run these analyses on the large [compute cluster] here at
 the UCSF Helen Diller Family Comprehensive Cancer Center.
 
-[compute cluster]: <%=pathToRoot%>software/index.html
+[compute cluster]: <%=pathTo('software/index.html')%>
