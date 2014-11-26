@@ -36,6 +36,10 @@
  ----------------------------------------------------------------------------%>
 <div id="wrap">
 
+<%-- HDFCC logo --%>
+<img src="<%=pathToRoot%>assets/images/UCSF_Diller_navy_RGB72dpi.png"
+     style="margin-left: 16px; margin-bottom: 2ex; width: 200px;">
+
   <div class="container">
   <%@ifeq page=""%>
     <div class="jumbotron">
@@ -95,5 +99,6 @@
   <%@ifdef name="footer_tail"%>
     <%@string name="footer_tail"%><%@string footer_tail=""%>
   <%@endif%>
+  <%@include file="scrolltofirst.html.rsp"%>
 </body>
 </html>

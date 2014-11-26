@@ -1,0 +1,20 @@
+<%-- Scroll page to first H1 section --%>
+<script type="text/javascript">
+$(window).load(function() {
+  // executes when complete page is fully loaded, including 
+  // all frames, objects and images
+  var first = $("h1:first");
+  if (first.length == 0) {
+    first = $("jumbotron");
+  }
+  if (first.length > 0) {
+    var offset = 20;
+    var navbar = $("#topnavbar");
+    if (navbar.length > 0) {
+      offset = navbar.height() + offset;
+    }
+    var targetOffset = first.offset().top - offset;
+    this.scroll(0, targetOffset);
+  }
+});
+</script>
