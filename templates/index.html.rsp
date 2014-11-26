@@ -36,11 +36,11 @@
 <div id="wrap">
 
 <%-- HDFCC logo --%>
-<div id="sublogocontainer">
+<div id="sublogocontainer" style="visibility: hidden;">
  <img id="sublogo"
       src="../assets/images/UCSF_Diller_navy_RGB72dpi.png"
       alt="HDFCC"
-      style="visibility: hidden; margin-left: 16px; margin-bottom: 0;
+      style="margin-left: 16px; margin-bottom: 0;
       width: 230px; height: 0px;">
 </div>
 
@@ -88,26 +88,33 @@
     <%@include file="footer.html.rsp"%>
   </div>
 </div>
-  <%--- Bootstrap core JavaScript ---%>
-  <%--- Placed at the end of the document so the pages load faster ---%>
-  <script src="<%@string name="jquery_url"%>/jquery.min.js"></script>
-  <script src="<%@string name="bootstrap_url"%>/js/bootstrap.min.js"></script>
-  <%-- Auto-adjust height of navigation bar in case it
-       word wraps into two or more rows or some devices --%>
-  <script>
-    $(document).ready(function(){
-        $(document.body).css('padding-top', $('#topnavbar').height() + 10);
-        $(window).resize(function(){
-            $(document.body).css('padding-top', $('#topnavbar').height() + 10);
-        });
-    });
-  </script>
-  <%-- <%@include file="link-annotation.html.rsp"%> --%>
-  <%@include file="google-analytics.html.rsp"%>
-  <%-- Include any extras that the page wish to add to the end --%>
-  <%@ifdef name="footer_tail"%>
-    <%@string name="footer_tail"%><%@string footer_tail=""%>
-  <%@endif%>
-  <%@include file="scrolltofirst.html.rsp"%>
+
+<%--- Placeholders to detect Bootstrap breakpoints ---%>
+<div class="device-xs visible-xs"></div>
+<div class="device-sm visible-sm"></div>
+<div class="device-md visible-md"></div>
+<div class="device-lg visible-lg"></div>
+
+<%--- Bootstrap core JavaScript ---%>
+<%--- Placed at the end of the document so the pages load faster ---%>
+<script src="<%@string name="jquery_url"%>/jquery.min.js"></script>
+<script src="<%@string name="bootstrap_url"%>/js/bootstrap.min.js"></script>
+<%-- Auto-adjust height of navigation bar in case it
+     word wraps into two or more rows or some devices --%>
+<script>
+  $(document).ready(function(){
+      $(document.body).css('padding-top', $('#topnavbar').height() + 10);
+      $(window).resize(function(){
+          $(document.body).css('padding-top', $('#topnavbar').height() + 10);
+      });
+  });
+</script>
+<%-- <%@include file="link-annotation.html.rsp"%> --%>
+<%-- Include any extras that the page wish to add to the end --%>
+<%@ifdef name="footer_tail"%>
+  <%@string name="footer_tail"%><%@string footer_tail=""%>
+<%@endif%>
+<%@include file="scrolltofirst.html.rsp"%>
+<%@include file="google-analytics.html.rsp"%>
 </body>
 </html>
