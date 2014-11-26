@@ -38,7 +38,7 @@
 
 <%-- HDFCC logo --%>
 <img id="sublogo" src="../assets/images/UCSF_Diller_navy_RGB72dpi.png"
-     style="visibility: hidden; margin-left: 16px; margin-bottom: 2ex;
+     style="visibility: hidden; margin-left: 16px; margin-bottom: 0;
      width: 230px; height: 0px;">
 
   <div class="container">
