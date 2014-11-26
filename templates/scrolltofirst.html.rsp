@@ -4,9 +4,7 @@ $(window).load(function() {
   // executes when complete page is fully loaded, including 
   // all frames, objects and images
   var first = $("h1:first");
-  if (first.length == 0) {
-    first = $("jumbotron");
-  }
+  if (first.length == 0) first = $("h2:first");
 
   if (first.length > 0) {
     var offset = 20;

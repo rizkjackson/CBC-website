@@ -45,6 +45,7 @@
 
   <div class="container">
   <%@ifeq page=""%>
+    <h1 style="visibility: hidden; height: 0px;">Computational Biology Core (CBC)</h1>
     <div class="jumbotron">
       <div class="media">
         <div class="pull-right">
