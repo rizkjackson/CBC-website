@@ -21,9 +21,15 @@ $(window).load(function() {
     sublogocontainer.css('visibility', 'visible');
   }
 
+  var availableHeight = this.innerHeight;
+  var topnavbar = $('#topnavbar');
+  if (topnavbar.length > 0) {
+    availableHeight = availableHeight - topnavbar.height();
+  }
+  
   // If sublogo is taking up too much space, scroll page to the beginning
   if (first.length > 0 && sublogocontainer.length > 0 &&
-      sublogocontainer.height() > 0.15*this.innerHeight) {
+      sublogocontainer.height() > 0.20*availableHeight) {
     var offsetAfter = first.offset().top;
     var shift = offsetAfter - offsetBefore;
 
