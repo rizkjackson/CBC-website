@@ -123,7 +123,7 @@
 @media screen and (min-width:660px) {
     .top-banner .inner {
         width: 100%;
-    };
+    }
 }
 
 @media screen and (max-width:659px) {
@@ -147,5 +147,5 @@
 
     .top-banner .logo span,.top-banner div.inner div.nav {
         display: none;
-    };
+    }
 }
