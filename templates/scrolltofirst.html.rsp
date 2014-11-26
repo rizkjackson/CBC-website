@@ -3,20 +3,27 @@
 $(window).load(function() {
   // executes when complete page is fully loaded, including 
   // all frames, objects and images
+
+
+  // Record location of the beginning of page
+  // before displaying the sublogo
+  var offsetBefore = 0;
   var first = $("h1:first");
   if (first.length == 0) first = $("h2:first");
+  if (first.length > 0) offsetBefore = first.offset().top;
 
-  if (first.length > 0) {
-    var offsetBefore = first.offset().top;
-
-    // Display sub-logo
+  // Make sub-logo visible
+  var sublogocontainer = $("#sublogocontainer");
+  if (sublogocontainer.length > 0) {
     var sublogo = $("#sublogo");
-    if (sublogo.length > 0) {
-      sublogo.css('height', 'auto');
-      sublogo.css('margin-bottom', '5ex');
-      sublogo.css('visibility', 'visible');
-    }
+    sublogo.css('height', 'auto');
+    sublogo.css('margin-bottom', '5ex');
+    sublogocontainer.css('visibility', 'visible');
+  }
 
+  // If sublogo is taking up too much space, scroll page to the beginning
+  if (first.length > 0 && sublogocontainer.length > 0 &&
+      sublogocontainer.height() > 0.15*this.innerHeight) {
     var offsetAfter = first.offset().top;
     var shift = offsetAfter - offsetBefore;
 
@@ -31,6 +38,6 @@ $(window).load(function() {
 
     // Scroll such that the H1 header is at the top
     this.scroll(0, shift);
-  } // if (first.length > 0)
+  }
 });
 </script>
