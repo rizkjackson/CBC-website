@@ -200,6 +200,11 @@ buildPage <- function(src, path=".", skip=TRUE) {
 
   # Relative path to root/home page
   pathToRoot <- paste(c(rep("..", times=depth), ""), collapse="/")
+  pathTo <- function(path) {
+    path <- file.path(pathToRoot, path, fsep="/")
+    path <- gsub("//", "/", path, fixed=TRUE)
+    path
+  } # pathTo()
 
   # Edit source
   editsrc <- src0

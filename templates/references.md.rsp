@@ -1,1 +1,1 @@
-[contact]: <%=pathToRoot%>contact/index.html
+[contact]: <%=pathTo('contact/index.html')%>

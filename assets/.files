@@ -1,6 +1,6 @@
-css/banners.css
 css/bootstrap.min.css
-css/tweaks.css
+css/cbc-tweaks.css
+css/ucsf-banners.css
 ico/favicon.ico
 images/combio3.gif
 images/nci.gif
