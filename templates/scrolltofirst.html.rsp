@@ -12,6 +12,9 @@ $(window).load(function() {
   if (first.length == 0) first = $("h2:first");
   if (first.length > 0) offsetBefore = first.offset().top;
 
+  // Locate the top navigation bar
+  var topnavbar = $('#topnavbar');
+
   // Make sub-logo visible
   var sublogocontainer = $("#sublogocontainer");
   if (sublogocontainer.length > 0) {
@@ -19,10 +22,27 @@ $(window).load(function() {
     sublogo.css('height', 'auto');
     sublogo.css('margin-bottom', '5ex');
     sublogocontainer.css('visibility', 'visible');
+
+    // Hide/show main UCSF logo depending on visibility of sub-logo
+    if (sublogo.length > 0) {
+      var logo = $(".top-banner.logo .inner .logo");
+      if (logo.length > 0) {
+        var scrollOffset = 0;
+        if (topnavbar.length > 0) scrollOffset = topnavbar.height();
+        var sublogoBottom = sublogo.offset().top + 0.5*sublogo.height();
+
+        $(window).scroll(function() {
+          if ($(window).scrollTop() + scrollOffset >= sublogoBottom) {
+            logo.css('visibility', 'visible');
+          } else {
+            logo.css('visibility', 'hidden');
+          }
+        });
+      }
+    }
   }
 
   var availableHeight = this.innerHeight;
-  var topnavbar = $('#topnavbar');
   if (topnavbar.length > 0) {
     availableHeight = availableHeight - topnavbar.height();
   }
