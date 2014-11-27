@@ -2,6 +2,7 @@
   <%-- USCF top banner [http://identity.ucsf.edu/website/] --%>
   <div class="top-banner logo">
     <div class="inner">
+      <div class="logo"></div>
       <div>
         <a class="logotype" href="http://www.ucsf.edu/">
           <span>University of California San Francisco</span>
