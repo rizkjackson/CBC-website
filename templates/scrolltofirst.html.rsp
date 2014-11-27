@@ -63,7 +63,7 @@ $(window).load(function() {
     var totalHeight = this.innerHeight;
     var available = pushOffset - totalHeight;
     if (available < shift) {
-      $("#filler").height(shift-available);
+      $("#filler").height(shift - available);
     }
 
     // Scroll such that the H1 header is at the top
