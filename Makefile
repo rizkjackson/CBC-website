@@ -73,6 +73,9 @@ check_css:
 #  Host cbc.ucsf.edu
 #    User <username on cbc.ucsf.edu> 
 
+beta:
+	rsync -avvz --exclude '*~' --perms --chmod=ugo+rx --progress html/ cbc.ucsf.edu:/var/www-cbc/beta/
+
 publish:
 	rsync -avvz --exclude '*~' --perms --chmod=ugo+rx --progress html/ cbc.ucsf.edu:/var/www-cbc/
 

@@ -71,6 +71,7 @@
     <%-- GRID NAVIGATION --%>
     <%@include file="navigator-grid.html.rsp"%>
   <%@else%>
+    <h1 class="printonly">UCSF Computational Biology Core (CBC)</h1>
     <%@include content="${body}"%>
   <%@endif%>
   </div> <%-- class="container" --%>
