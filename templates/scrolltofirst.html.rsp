@@ -8,8 +8,8 @@ $(window).load(function() {
   // Record location of the beginning of page
   // before displaying the sublogo
   var offsetBefore = 0;
-  var first = $("h1:first");
-  if (first.length == 0) first = $("h2:first");
+  var first = $("h1:visible:first");
+  if (first.length == 0) first = $("h2:visible:first");
   if (first.length > 0) offsetBefore = first.offset().top;
 
   // Locate the top navigation bar
