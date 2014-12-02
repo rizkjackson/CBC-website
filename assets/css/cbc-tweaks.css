@@ -60,3 +60,52 @@ body {
 }
 
 h1 { margin-top: 0px; }
+
+.printonly {
+  display: none;
+}
+
+/*--------------------------------------------------------------*
+ * Custom print layout
+ *--------------------------------------------------------------*/
+@media print { 
+  a, a:after { content: normal !important; }
+
+  #sublogocontainer {
+    display: none;
+  }
+
+  #filler {
+    display: none;
+  }
+
+  #push {
+    display: none;
+  }
+
+  body {
+    height: auto;
+  }
+
+  #wrap {
+    position: relative;
+    top: -100px;
+  }
+
+  #footer {
+    position: relative;
+    top: -20px;
+    border-top: 1px solid black;
+  }
+
+  h1.printonly {
+    margin-bottom: 2ex;
+    display: block;
+    padding-bottom: 0.1ex;
+    border-bottom: 1px solid black;
+  }
+
+  span.printonly {
+    display: inline;
+  }
+} /* @media print */
