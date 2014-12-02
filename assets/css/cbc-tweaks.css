@@ -87,6 +87,10 @@ h1 { margin-top: 0px; }
     height: auto;
   }
 
+  .btn {
+    display: none;
+  }
+
   #wrap {
     position: relative;
     top: -100px;
