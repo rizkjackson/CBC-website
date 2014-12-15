@@ -6,7 +6,8 @@ or https://.
 
 <form id="vpnform" role="form">
   <div class="form-group">
-   <input id="vpnurl" type="url" class="form-control" placeholder="http://www.nature.com/" autofocus/>
+   <input id="vpnurl" type="url" class="form-control"
+          placeholder="e.g. http://www.nature.com/" autofocus/>
   </div>
   <button type="submit" class="btn btn-primary">Open via UCSF VPN</button>
 </form>
