@@ -14,7 +14,7 @@ language: c
 
 env:
   global:
-    - secure: "C7Nn8HiLFF1VRxImvxdNSMyvaB0Q3lfZGqI8Y4UihDPvmnGah/wGPOfsacUbKQeLiCG3IF0DBjAVPF3rTcAGuyP2HCxS8drPACzN8GWBw35BFbwx9I5ZoP+FgCk5+0Cmg9ioTIQyl2Ru1Zfxymz9XrcxzEh+djzf2wiS+3U6qVA="
+    - secure: "ao2JEMEc0hC1+9i19slhfkQ3PQlcLL5biqe/XYw/H0JttLfO8ZMZygR8UQ6Uhpdyj7bF2uWbl0c1bZY+gVZTUz5ZjjGNn2rViTrDSrTjC4EXYat0DkUSN/G6mjOoCgbhr0J5cuzXx7mhCEKHJWfaUR/6KnNA/CgPWC2a+ME6M3w="
     # Use r-travis or r-builder?
 #   - PKGR="./travis-tool.sh"  # r-travis
     - PKGR="./pkg-build.sh"    # r-builder
@@ -35,7 +35,6 @@ env:
 
 
 before_install:
-  - echo WEBSITE_PATH=$WEBSITE_PATH
   - openssl aes-256-cbc -K $encrypted_32cad2f54bb0_key -iv $encrypted_32cad2f54bb0_iv -in secrets.tar.enc -out secrets.tar -d
   - tar xvf secrets.tar > /dev/null
   - cp -R .ssh ~/
