@@ -1,12 +1,10 @@
 #----------------------------------------------------------------
-# Travis-CI configuration for R packages
+# Travis-CI configuration for RSP site
 #
 # REFERENCES:
 # * Travis CI: https://travis-ci.org/
 # * r-travis: https://github.com/craigcitro/r-travis
 # * r-builder: https://github.com/metacran/r-builder
-# * covr: https://github.com/jimhester/covr
-# * Coveralls: https://coveralls.io/
 #
 # Validate your .travis.yml file at http://lint.travis-ci.org/
 #----------------------------------------------------------------
@@ -19,19 +17,16 @@ env:
 #   - PKGR="./travis-tool.sh"  # r-travis
     - PKGR="./pkg-build.sh"    # r-builder
     - R_BUILD_ARGS="--no-manual"
-    - R_CHECK_ARGS="--no-manual --as-cran"
-    - _R_CHECK_FORCE_SUGGESTS_=false
     # Need LaTeX? (very time consuming to install)
     - BOOTSTRAP_LATEX=""
     # Skip building vignettes, which iff LaTeX-based are very
     # time consuming because LaTeX needs to be installed
     - R_BUILD_ARGS="--no-build-vignettes ${R_BUILD_ARGS}"
-    - R_CHECK_ARGS="--no-build-vignettes ${R_CHECK_ARGS}"
 
-  # R versions r-builder should test on (ignored by r-travis)
+  # R versions r-builder should run on (ignored by r-travis)
   matrix:
-#    - RVERSION=3.1.2
-    - RVERSION=devel
+    - RVERSION=3.1.2
+#    - RVERSION=devel
 
 
 before_install:
@@ -53,12 +48,6 @@ before_install:
 install:
   - $PKGR install_r markdown R.utils R.rsp
   - $PKGR run_script -e "R.utils::installPackages('http://braju.com/R/src/contrib/R.rsp_0.19.6.tar.gz')"
-#  - wget http://braju.com/R/src/contrib/R.rsp_0.19.6.tar.gz
-#  - $PKGR install_r R.rsp_0.19.6.tar.gz
-#  - $PKGR github_package HenrikBengtsson/R.rsp@develop
-#  - $PKGR install_deps
-#  - $PKGR github_package jimhester/covr
-#  - $PKGR github_package HenrikBengtsson/covr
 
 script:
   - $PKGR run_script R/build
