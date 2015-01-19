@@ -61,7 +61,8 @@ script:
   - $PKGR run_script R/build
 
 after_success:
-  - rsync -avz --exclude '*~' --perms --chmod=ugo+rx --progress html/ $WEBSITE_PATH
+  - echo WEBSITE_PATH=$WEBSITE_PATH
+  - rsync -avvvz --exclude '*~' --perms --chmod=ugo+rx --progress html/ $WEBSITE_PATH
  
 notifications:
   email:
