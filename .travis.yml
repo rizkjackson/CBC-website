@@ -12,7 +12,7 @@ language: c
 
 env:
   global:
-    - secure: "ao2JEMEc0hC1+9i19slhfkQ3PQlcLL5biqe/XYw/H0JttLfO8ZMZygR8UQ6Uhpdyj7bF2uWbl0c1bZY+gVZTUz5ZjjGNn2rViTrDSrTjC4EXYat0DkUSN/G6mjOoCgbhr0J5cuzXx7mhCEKHJWfaUR/6KnNA/CgPWC2a+ME6M3w="
+    - secure: "LlyG9WS88L9umSiNHdtaxRWUJST3/Xo1EvSQkcrN19t67OnBx6Brn2ZUqWi8zYTRIbn7EQnEckD7LnIj6xfUykrk3NAAgoE3aLy9DmLP7MVeMQYe/ShsPihRukVE87vQwWepo54mEsw9goMhPejZbnnT00xWcLQLd2UA/G1nXR0="
     # Use r-travis or r-builder?
 #   - PKGR="./travis-tool.sh"  # r-travis
     - PKGR="./pkg-build.sh"    # r-builder
@@ -53,7 +53,7 @@ script:
   - $PKGR run_script R/build
 
 after_success:
-  - rsync -avz --exclude '*~' --perms --chmod=ugo+rx --progress html/ $WEBSITE_PATH
+  - rsync -avz --exclude '*~' --perms --chmod=ugo+rx --progress html/ $WEBSITE_PATH/
  
 notifications:
   email:
