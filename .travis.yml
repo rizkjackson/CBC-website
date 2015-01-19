@@ -52,8 +52,10 @@ before_install:
     fi
 
 install:
-  - $PKGR install_r markdown R.rsp
-  - $PKGR github_package HenrikBengtsson/R.rsp@develop
+  - $PKGR install_r markdown R.utils R.rsp
+  - wget http://braju.com/R/src/contrib/R.rsp_0.19.6.tar.gz
+  - $PKGR install_r R.rsp_0.19.6.tar.gz
+#  - $PKGR github_package HenrikBengtsson/R.rsp@develop
 #  - $PKGR install_deps
 #  - $PKGR github_package jimhester/covr
 #  - $PKGR github_package HenrikBengtsson/covr
