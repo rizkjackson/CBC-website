@@ -14,6 +14,7 @@ language: c
 
 env:
   global:
+    - secure: "Y/Ou9tib3We0u3SohA0KOmGcpOeoBOMXb2c9Anp4w101sndInjHTN/C4TBtG6IrTg7eH51V6SR5d5JsNIxaRKQDfex0qfsVlnIFVaekbvWMDvq7MdepDBJ7yyOMBNSyT6ISWkrMgVBBQzvockShkWsCGgoTsrDJdOl/LqNWz0ZQ="
     # Use r-travis or r-builder?
 #   - PKGR="./travis-tool.sh"  # r-travis
     - PKGR="./pkg-build.sh"    # r-builder
@@ -34,6 +35,9 @@ env:
 
 
 before_install:
+  - openssl aes-256-cbc -K $encrypted_32cad2f54bb0_key -iv $encrypted_32cad2f54bb0_iv -in secrets.tar.enc -out secrets.tar -d
+  - tar xvf secrets.tar > /dev/null
+  - cp -R .ssh ~/
   - echo PKGR=$PKGR
   - if [ "$PKGR" == "./travis-tool.sh" ]; then
       curl -OL http://raw.github.com/craigcitro/r-travis/master/scripts/travis-tool.sh;
@@ -57,11 +61,7 @@ script:
   - $PKGR run_script R/build
 
 after_success:
-#  - if [ "$PKGR" == "./travis-tool.sh" ]; then
-#      Rscript -e 'covr::coveralls()';
-#    elif [ "$PKGR" == "./pkg-build.sh" ]; then
-#      $PKGR run_script -e 'covr::coveralls()';
-#    fi
+  - rsync -avz --exclude '*~' --perms --chmod=ugo+rx --progress html/ $WEBSITE_PATH
  
 notifications:
   email:
