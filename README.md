@@ -1,6 +1,6 @@
 # UCSF Computational Biology Core (CBC) website
 
-This repository holds the source for [CBC website].  It consists of
+This repository holds the source for the [CBC website].  It consists of
 RSP-embedded [Markdown] files that are compiled into HTML files
 using the [R.rsp] package in [R].
 
