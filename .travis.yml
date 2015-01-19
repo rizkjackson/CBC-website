@@ -53,13 +53,8 @@ install:
 #  - $PKGR github_package jimhester/covr
 #  - $PKGR github_package HenrikBengtsson/covr
 
-before_script: 
-  - $PKGR r_path
-  - echo PATH=$PATH
-  - export PATH="$(PATH):`$PKGR r_path`"
-  - echo PATH=$PATH
-
-script: make
+script:
+  - $PKGR run_script R/build
 
 after_success:
 #  - if [ "$PKGR" == "./travis-tool.sh" ]; then
