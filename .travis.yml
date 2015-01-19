@@ -48,7 +48,7 @@ before_install:
 
 install:
   - $PKGR install_r markdown R.rsp
-#  - $PKGR github_package HenrikBengtsson/R.rsp@develop
+  - $PKGR github_package HenrikBengtsson/R.rsp@develop
 #  - $PKGR install_deps
 #  - $PKGR github_package jimhester/covr
 #  - $PKGR github_package HenrikBengtsson/covr
