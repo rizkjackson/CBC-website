@@ -1,7 +1,7 @@
 # Software and Computing Resources
 
 ## Our software contributions 
-We contribute to several open-source projects including [R] and
+We contribute to several open source projects including [R] and
 [Bioconductor] and core member Henrik Bengtsson is the creator of the
 [Aroma Project].  Being parts of these projects helps us to keep up to
 date with the field and to get invaluable feedback on our own software
