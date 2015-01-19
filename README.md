@@ -1,6 +1,14 @@
 # UCSF Computational Biology Core (CBC) website
 
-## How to
+This repository holds the source for [CBC website].  It consists of
+RSP-embedded [Markdown] files that are compiled into HTML files
+using the [R.rsp] package in [R].
+
+Current build status: <a href="https://travis-ci.org/UCSF-CBC/website"><img src="https://travis-ci.org/UCSF-CBC/website.svg?branch=master" alt="Build status"></a> 
+
+-----
+## Appendix
+### How to
 
 Once, check out the repository:
 ```
@@ -30,7 +38,7 @@ git push
 ```
 
 
-## For beginners
+### For beginners
 To edit the content of the [CBC website], go to the [content/] source directory and edit the corresponding Markdown index.md file in the browser.  You can even preview it in the browser.  Note that you can only edit the text/content, not the layout on the page.  When you save (=commit) and edit, I'll get a notification, which will allow me to rebuild the site so the updates goes live.
 
 To open a file in the web browser from the terminal, use for instance:
@@ -40,3 +48,6 @@ open html/index.html
 
 [CBC website]: http://cbc.ucsf.edu/
 [content/]: https://bitbucket.org/USCF-CBC/website/src/HEAD/content/?at=master
+[R]: http://www.r-project.org/
+[R.rsp]: http://cran.r-project.org/package=R.rsp
+[Markdown]: http://daringfireball.net/projects/markdown/syntax
