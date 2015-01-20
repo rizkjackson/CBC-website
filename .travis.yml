@@ -47,7 +47,7 @@ before_install:
 
 install:
   - $PKGR install_r markdown R.utils R.rsp
-  - $PKGR run_script -e "R.utils::installPackages('http://braju.com/R/src/contrib/R.rsp_0.19.6.tar.gz')"
+  - $PKGR run_script -e "R.utils::installPackages('http://braju.com/R/src/contrib/R.rsp_0.19.7.tar.gz')"
 
 script:
   - $PKGR run_script R/build
