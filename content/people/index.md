@@ -5,7 +5,7 @@
 <img src="<%=pathTo('assets/images/combio3.gif')%>" 
      class="img-rounded img-responsive"
      style="max-height: 200px; margin-right: 40px; margin-bottom: 20px"
-     alt="Core members">
+     alt="Core members: Ritu Roy, Henrik Bengtsson, Adam Olshen">
 
 * **Ritu Roy**, MSc, is a staff scientist at the UCSF Helen Diller
   Family Comprehensive Cancer Center. Mrs. Roy has a Master's degree
