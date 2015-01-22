@@ -56,7 +56,7 @@
           <img src="<%@string name="site_image"%>" 
                class="img-rounded img-responsive"
                style="max-height: 200px; margin-right: 40px; margin-bottom: 20px"
-               alt="Core members">
+               alt="Core members: Ritu Roy, Henrik Bengtsson, Adam Olshen">
         </div>
         <h2>
          <%@string name="site_name"%> (<%@string name="site_acronym"%>)
