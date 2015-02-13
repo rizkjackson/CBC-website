@@ -97,4 +97,5 @@ the R.rsp package.<br></span>
 [R.rsp]: http://cran.r-project.org/package=R.rsp
 [sfit]: https://r-forge.r-project.org/R/?group_id=349
 
-[Translational Informatics]: http://cancer.ucsf.edu/research/cores/translational-informatics
+<%-- was [Translational Informatics]: http://cancer.ucsf.edu/research/cores/translational-informatics --%>
+[Translational Informatics]: http://ti.ucsf.edu/hpc
