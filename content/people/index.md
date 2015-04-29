@@ -5,7 +5,16 @@
 <img src="<%=pathTo('assets/images/combio3.gif')%>" 
      class="img-rounded img-responsive"
      style="max-height: 200px; margin-right: 40px; margin-bottom: 20px"
-     alt="Core members: Ritu Roy, Henrik Bengtsson, Adam Olshen">
+     alt="Core members: Saurabh Asthana, Ritu Roy, Henrik Bengtsson, Adam Olshen">
+
+* **Saurabh Asthana**, PhD, is an associate researcher at the UCSF Helen Diller
+  Family Comprehensive Cancer Center. Saurabh did his graduate work in
+  evolutionary biology/genomics at Harvard Medical School in old Boston town.
+  Prior to joining the Computational Biology Core, he labored on behalf of the
+  Bivona and Taylor labs at UCSF, analyzing exomes, whole genomes,
+  transcriptomes, ribosomes, a smattering of genetic screens, et al. Most of
+  his time is spent tooling on various next-gen sequencing analysis pipelines.
+  [contact] him.
 
 * **Ritu Roy**, MSc, is a staff scientist at the UCSF Helen Diller
   Family Comprehensive Cancer Center. Mrs. Roy has a Master's degree
@@ -48,3 +57,4 @@
   [UCSF Profile](http://profiles.ucsf.edu/adam.olshen),
   [Cancer Center Profile](http://cancer.ucsf.edu/people/profiles/olshen_adam.3576)
   or [contact] him.
+
