@@ -4,7 +4,7 @@ This repository holds the source for the [CBC website].  It consists of
 RSP-embedded [Markdown] files that are compiled into HTML files
 using the [R.rsp] package in [R].
 
-Current build status: <a href="https://travis-ci.org/UCSF-CBC/website"><img src="https://travis-ci.org/UCSF-CBC/website.svg?branch=master" alt="Build status"></a> 
+Current build status: <a href="https://travis-ci.org/UCSF-CBC/CBC-website"><img src="https://travis-ci.org/UCSF-CBC/CBC-website.svg?branch=master" alt="Build status"></a> 
 
 -----
 ## Appendix
@@ -12,7 +12,7 @@ Current build status: <a href="https://travis-ci.org/UCSF-CBC/website"><img src=
 
 Once, check out the repository:
 ```
-git clone git@bitbucket.org:USCF-CBC/website.git
+git clone git@bitbucket.org:USCF-CBC/CBC-website.git
 ```
 
 Before editing anything, make sure you have the most recent version of the files:
@@ -47,7 +47,7 @@ open html/index.html
 ```
 
 [CBC website]: http://cbc.ucsf.edu/
-[content/]: https://bitbucket.org/USCF-CBC/website/src/HEAD/content/?at=master
+[content/]: https://bitbucket.org/USCF-CBC/CBC-website/src/HEAD/content/?at=master
 [R]: http://www.r-project.org/
 [R.rsp]: http://cran.r-project.org/package=R.rsp
 [Markdown]: http://daringfireball.net/projects/markdown/syntax
