@@ -74,7 +74,6 @@ check_css:
 
 beta:
 	rsync -avvz --exclude '*~' --perms --chmod=ugo+rx --progress html/ $(WEBSITE_PATH)/beta/
-)
 
 publish:
 	rsync -avvz --exclude '*~' --perms --chmod=ugo+rx --progress html/ $(WEBSITE_PATH)/
