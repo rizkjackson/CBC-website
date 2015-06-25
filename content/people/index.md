@@ -14,7 +14,8 @@
   Bivona and Taylor labs at UCSF, analyzing exomes, whole genomes,
   transcriptomes, ribosomes, a smattering of genetic screens, et al. Most of
   his time is spent tooling on various next-gen sequencing analysis pipelines.
-  [contact] him.
+  See also Saurabh's [UCSF Profile](http://profiles.ucsf.edu/saurabh.asthana)
+  or [contact] him.
 
 * **Ritu Roy**, MSc, is a staff scientist at the UCSF Helen Diller
   Family Comprehensive Cancer Center. Mrs. Roy has a Master's degree
