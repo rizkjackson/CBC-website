@@ -12,8 +12,8 @@
   evolutionary biology/genomics at Harvard Medical School in old Boston town.
   Prior to joining the Computational Biology Core, he labored on behalf of the
   Bivona and Taylor labs at UCSF, analyzing exomes, whole genomes,
-  transcriptomes, ribosomes, a smattering of genetic screens, et al. Most of
-  his time is spent tooling on various next-gen sequencing analysis pipelines.
+  transcriptomes, ribosomes, a smattering of genetic screens, etc. Most of
+  his time is spent tooling on various next-generation sequencing analysis pipelines.
   See also Saurabh's [UCSF Profile](http://profiles.ucsf.edu/saurabh.asthana)
   or [contact] him.
 
