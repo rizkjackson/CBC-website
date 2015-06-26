@@ -37,7 +37,17 @@ again. Otherwise, contact Adam Olshen.
   Phone: [415-514-4989](tel:+1 415-514-4989)<br>
   Email: [saurabh.asthana@ucsf.edu](mailto:saurabh.asthana@ucsf.edu)<br>
 </address>
-
+<%---
+<address>
+  <strong>Mark Segal</strong><br>
+  Building: Mission Hall: Global Health & Clinical Sciences Building, UCSF Mission Bay campus<br>
+  Office: MH24??<br>
+  Address: [550 16th Street, San Francisco, CA 94158]<br>
+  Phone: [415-???-????](tel:+1 415-???-????)<br>
+  Email: [mark.segal@ucsf.edu](mailto:mark.segal@ucsf.edu)<br>
+</address>
+---%>
 
 [1450 3rd Street, San Francisco, CA 94158]: https://www.google.com/maps/place/Helen+Diller+Family+Cancer+Research+Bldg,+1450+3rd+Street,+San+Francisco,+CA+94158/@37.7702147,-122.3898362,18z/data=!3m1!4b1!4m2!3m1!1s0x808f7fc561687985:0x678953e970deb4c7
+[550 16th Street, San Francisco, CA 94158]: https://www.google.com/maps/place/550+16th+St,+San+Francisco,+CA+94158/@37.7672262,-122.3907482,17z/data=!3m1!4b1!4m2!3m1!1s0x808f7fcf516eefeb:0x32cf797292edaa31
 [2340 Sutter Street, San Francisco, CA 94115]: https://www.google.com/maps/place/2340+Sutter+St,+San+Francisco,+CA+94115/@37.7858469,-122.438919,17z/data=!3m1!4b1!4m2!3m1!1s0x808580c9cf8bfd49:0x9366afe35707b4e1

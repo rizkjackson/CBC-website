@@ -36,6 +36,16 @@
 </ol>
 </div>
 
+<%---
+## Mark Segal
+<div id="mark_profiles_publications">
+<ol>
+  <li>
+    <em>Retrieving publications from the <a href="http://profiles.ucsf.edu/mark.segal">UCSF Profile</a> database...</em>
+  </li>
+</ol>
+</div>
+---%>
 
 <%-- Append scripts to the end of the page --%>
 <%@string footer_tail="
@@ -46,5 +56,8 @@
   add_profiles_user_content('henrik', 'henrik.bengtsson')
   add_profiles_user_content('ritu', 'ritu.roy')
   add_profiles_user_content('saurabh', 'saurabh.asthana')
+<%---
+  add_profiles_user_content('mark', 'mark.segal')
+---%>
 </script>
 "%>
