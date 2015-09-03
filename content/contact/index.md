@@ -6,12 +6,12 @@ on previous projects, feel free to contact that person
 again. Otherwise, contact Adam Olshen.
 
 <address>
-  <strong>Adam Olshen</strong>, Director<br>
+  <strong>Saurabh Asthana</strong><br>
   Building: Helen Diller Family Cancer Research Building, UCSF Mission Bay campus<br>
-  Office: HD267<br>
+  Office: HD276<br>
   Address: [1450 3rd Street, San Francisco, CA 94158]<br>
-  Phone: [415-514-9406](tel:+1 415-514-9406)<br>
-  Email: [adam.olshen@ucsf.edu](mailto:adam.olshen@ucsf.edu)<br>
+  Phone: [415-514-4989](tel:+1 415-514-4989)<br>
+  Email: [saurabh.asthana@ucsf.edu](mailto:saurabh.asthana@ucsf.edu)<br>
 </address>
 <address>
   <strong>Henrik Bengtsson</strong><br>
@@ -22,6 +22,14 @@ again. Otherwise, contact Adam Olshen.
   Email: [henrik.bengtsson@ucsf.edu](mailto:henrik.bengtsson@ucsf.edu)<br>
 </address>
 <address>
+  <strong>Adam Olshen</strong>, Director<br>
+  Building: Helen Diller Family Cancer Research Building, UCSF Mission Bay campus<br>
+  Office: HD267<br>
+  Address: [1450 3rd Street, San Francisco, CA 94158]<br>
+  Phone: [415-514-9406](tel:+1 415-514-9406)<br>
+  Email: [adam.olshen@ucsf.edu](mailto:adam.olshen@ucsf.edu)<br>
+</address>
+<address>
   <strong>Ritu Roy</strong><br>
   Building: Mt Zion Cancer Research Building, UCSF Mt Zion campus<br>
   Office: N233<br>
@@ -30,23 +38,13 @@ again. Otherwise, contact Adam Olshen.
   Email: [royr@cc.ucsf.edu](mailto:royr@cc.ucsf.edu)<br>
 </address>
 <address>
-  <strong>Saurabh Asthana</strong><br>
-  Building: Helen Diller Family Cancer Research Building, UCSF Mission Bay campus<br>
-  Office: HD276<br>
-  Address: [1450 3rd Street, San Francisco, CA 94158]<br>
-  Phone: [415-514-4989](tel:+1 415-514-4989)<br>
-  Email: [saurabh.asthana@ucsf.edu](mailto:saurabh.asthana@ucsf.edu)<br>
-</address>
-<%---
-<address>
   <strong>Mark Segal</strong><br>
   Building: Mission Hall: Global Health & Clinical Sciences Building, UCSF Mission Bay campus<br>
-  Office: MH24??<br>
+  Office: MH2543<br>
   Address: [550 16th Street, San Francisco, CA 94158]<br>
-  Phone: [415-???-????](tel:+1 415-???-????)<br>
+  Phone: [415-514-8034](tel:+1 415-514-8034)<br>
   Email: [mark.segal@ucsf.edu](mailto:mark.segal@ucsf.edu)<br>
 </address>
----%>
 
 [1450 3rd Street, San Francisco, CA 94158]: https://www.google.com/maps/place/Helen+Diller+Family+Cancer+Research+Bldg,+1450+3rd+Street,+San+Francisco,+CA+94158/@37.7702147,-122.3898362,18z/data=!3m1!4b1!4m2!3m1!1s0x808f7fc561687985:0x678953e970deb4c7
 [550 16th Street, San Francisco, CA 94158]: https://www.google.com/maps/place/550+16th+St,+San+Francisco,+CA+94158/@37.7672262,-122.3907482,17z/data=!3m1!4b1!4m2!3m1!1s0x808f7fcf516eefeb:0x32cf797292edaa31
