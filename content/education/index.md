@@ -6,6 +6,7 @@ Faculty and staff are available to give short presentations on topics such as:
 * What clustering can and can not do for you
 * Building a predictor
 * Introduction to the R statistical software
+* Crash course or one-on-one introduction to version control using Git and GitHub.
 
 Feel free to drop in on one of us if you have questions on any topic related to computational biology.
 
