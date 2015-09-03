@@ -3,7 +3,7 @@
 Researchers are encouraged to contact the Computational Biology Core early
 in the project development process.  If you have worked with a member
 on previous projects, feel free to contact that person
-again. Otherwise, contact Adam Olshen.
+again. Otherwise, please contact Adam Olshen.
 
 <address>
   <strong>Saurabh Asthana</strong><br>
