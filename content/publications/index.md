@@ -36,7 +36,6 @@
 </ol>
 </div>
 
-<%---
 ## Mark Segal
 <div id="mark_profiles_publications">
 <ol>
@@ -45,7 +44,6 @@
   </li>
 </ol>
 </div>
----%>
 
 <%-- Append scripts to the end of the page --%>
 <%@string footer_tail="
