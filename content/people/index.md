@@ -58,7 +58,14 @@
   [Cancer Center Profile](http://cancer.ucsf.edu/people/profiles/roy_ritu.3644)
   or [contact] her.
 
-* **Mark Segal**, PhD.
+* **Mark Segal**, PhD, is Professor In Residence in the UCSF Department 
+  of Epidemiology and Biostatistics and Head of the Division of Bioinformatics.
+  Dr. Segal received his PhD in Statistics from Stanford University.  He has 
+  worked on a diverse suite of computational biology problems including 
+  methods for linking high-throughput expression data to survival endpoints,
+  novel topologies for representing protein folding and elicitation of gene
+  regulatory networks.  Currently, he is PI of an RO1 pertaining to inferring
+  and utilizing 3D genome architecture.
   See also Marks's
   [UCSF Profile](http://profiles.ucsf.edu/mark.segal)
   or [contact] him.
