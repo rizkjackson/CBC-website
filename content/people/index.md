@@ -64,7 +64,7 @@
   worked on a diverse suite of computational biology problems including 
   methods for linking high-throughput expression data to survival endpoints,
   novel topologies for representing protein folding and elicitation of gene
-  regulatory networks.  Currently, he is PI of an RO1 pertaining to inferring
+  regulatory networks.  Currently, he is PI of an R01 pertaining to inferring
   and utilizing 3D genome architecture.
   See also Marks's
   [UCSF Profile](http://profiles.ucsf.edu/mark.segal)
