@@ -44,12 +44,10 @@
   [UCSF Profile](http://profiles.ucsf.edu/henrik.bengtsson)
   or [contact] him.
 
-<%---
 * **Mark Segal**, PhD, ...
   See also Marks's
   [UCSF Profile](http://profiles.ucsf.edu/mark.segal)
   or [contact] him.
----%>
 
 * **Adam Olshen**, PhD and Director of the Core, is Professor In
   Residence in the UCSF Department of Epidemiology and
