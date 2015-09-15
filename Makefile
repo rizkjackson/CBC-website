@@ -73,9 +73,11 @@ check_css:
 # 2. That authentication for <host> is setup in ~/.ssh/config
 
 beta:
+	@echo WEBSITE_PATH=$(WEBSITE_PATH)
 	rsync -avvz --exclude '*~' --perms --chmod=ugo+rx --progress html/ $(WEBSITE_PATH)/beta/
 
 publish:
+	@echo WEBSITE_PATH=$(WEBSITE_PATH)
 	rsync -avvz --exclude '*~' --perms --chmod=ugo+rx --progress html/ $(WEBSITE_PATH)/
 
 
