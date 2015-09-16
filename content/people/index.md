@@ -28,7 +28,8 @@
   a focus on applications of copy-number analysis to cancer genomics
   research.  He has recently developed the aroma.seq tools for
   analyzing new-generation sequencing data.
-  See also Henrik's [UCSF Profile](http://profiles.ucsf.edu/henrik.bengtsson)
+  See also Henrik's [UCSF Profile](http://profiles.ucsf.edu/henrik.bengtsson),
+  [Cancer Center Profile](http://cancer.ucsf.edu/people/profiles/bengtsson_henrik.6773)
   or [contact] him.
 
 * **Adam Olshen**, PhD and Director of the Core, is Professor In
