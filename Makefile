@@ -71,6 +71,7 @@ check_css:
 # Requires:
 # 1. That WEBSITE_PATH points to a <host>:<abs-path>/ webserver path
 # 2. That authentication for <host> is setup in ~/.ssh/config
+WEBSITE_PATH=cbc.ucsf.edu:www-cbc
 
 beta:
 	@echo WEBSITE_PATH=$(WEBSITE_PATH)
