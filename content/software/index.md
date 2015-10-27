@@ -18,6 +18,7 @@ Here is a list of software tools that we have developed ourselves or contributed
 * [DNAcopy]: Circular Binary Segmentation (CBS) method for aCGH copy
   number analysis.
 * [EGAN]: Exploratory Gene Association Networks.
+* [future]: Asynchroneous (parellel/distributed) processing in R using futures.
 * [illuminaio]: Software for parsing Illumina microarray files.
 * [matrixStats]: Fast and memory-efficient mathematical operations on matrices.
 * [partDSA]: Piecewise constant estimation of increasingly complex predictors.
