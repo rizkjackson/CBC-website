@@ -12,7 +12,7 @@ Here is a list of software tools that we have developed ourselves or contributed
 * [affxparser]: Software for parsing Affymetrix microarray files.
 * [aroma]: Preprocessing of spotted microarray data.
 * [aroma.affymetrix]: Analysis of small to extremely large Affymetrix microarray data sets.
-* aroma.seq: High-throughput sequence (HT-Seq) analysis in the Aroma framework.  (Pre-release.)
+* [aroma.seq]: High-throughput sequence (HT-Seq) analysis in the Aroma framework.  (Pre-release.)
 * [babel]: Ribosome profiling data analysis using statistical
   methods with the same name.
 * [DNAcopy]: Circular Binary Segmentation (CBS) method for aCGH copy
@@ -85,10 +85,11 @@ the R.rsp package.<br></span>
 [affxparser]: http://www.bioconductor.org/packages/release/bioc/html/affxparser.html
 [aroma]: http://www.aroma-project.org/packages/aroma/
 [aroma.affymetrix]: http://cran.r-project.org/package=aroma.affymetrix
-<%-- [aroma.seq]: http://aroma-project.org/alpha/aroma.seq/ --%>
+[aroma.seq]: https://github.com/HenrikBengtsson/aroma.seq
 [babel]: http://cran.r-project.org/package=babel
 [DNAcopy]: http://www.bioconductor.org/packages/release/bioc/html/DNAcopy.html
 [EGAN]: http://akt.ucsf.edu/EGAN/
+[future]: http://cran.r-project.org/package=future
 [illuminaio]: http://www.bioconductor.org/packages/release/bioc/html/illuminaio.html
 [matrixStats]: http://cran.r-project.org/package=matrixStats
 [partDSA]: http://cran.r-project.org/package=partDSA
