@@ -18,7 +18,8 @@ Here is a list of software tools that we have developed ourselves or contributed
 * [DNAcopy]: Circular Binary Segmentation (CBS) method for aCGH copy
   number analysis.
 * [EGAN]: Exploratory Gene Association Networks.
-* [future]: Asynchroneous (parellel/distributed) processing in R using futures.
+* [future]: Asynchronous (parallel/distributed) processing in R on
+  single machines and large compute clusters.
 * [illuminaio]: Software for parsing Illumina microarray files.
 * [matrixStats]: Fast and memory-efficient mathematical operations on matrices.
 * [partDSA]: Piecewise constant estimation of increasingly complex predictors.
@@ -37,7 +38,7 @@ provided by either industry or academia.  We try to use
 open-source software as much as possible, particularly because it is
 key to reproducible research.
 
-## Compute Cluster 
+## Large-Scale Computing
 The amount of data being collected in genomic research has grown
 dramatically.  It has been less than a decade ago since Affymetrix SNP
 array data (~60MB/sample) were considered large.  Many software tools
@@ -55,11 +56,6 @@ get with microarray technologies.  (This does _not_ mean that we get
 different story.)  We are now extending the Aroma Project for it to
 support HT-Seq analysis as well.
 
-At the UCSF Helen Diller Family Comprehensive Cancer Center we have a
-large Linux compute cluster (maintained by [Translational
-Informatics]), which, together with tailored implementations (e.g. our
-aroma.seq and aroma.affymetrix tools), allows us to process large
-amounts of data in a highly parallel fashion.
 
 ## Programming Languages 
 We are experienced in programming languages such as C, C++, Java,
@@ -97,6 +93,3 @@ the R.rsp package.<br></span>
 [R.matlab]: http://cran.r-project.org/package=R.matlab
 [R.rsp]: http://cran.r-project.org/package=R.rsp
 [sfit]: https://r-forge.r-project.org/R/?group_id=349
-
-<%-- was [Translational Informatics]: http://cancer.ucsf.edu/research/cores/translational-informatics --%>
-[Translational Informatics]: http://ti.ucsf.edu/hpc

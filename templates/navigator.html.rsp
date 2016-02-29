@@ -35,6 +35,7 @@
         <li><a href="<%=pathTo('consultation/index.html')%>">Consultation</a></li>
         <li><a href="<%=pathTo('sequencing/index.html')%>">Sequencing</a></li>
         <li><a href="<%=pathTo('software/index.html')%>">Software</a></li>
+        <li><a href="<%=pathTo('hpc/index.html')%>">HPC</a></li>
         <li><a href="<%=pathTo('stories/index.html')%>">Stories</a></li>
         <li><a href="<%=pathTo('education/index.html')%>">Education</a></li>
         <li><a href="<%=pathTo('publications/index.html')%>">Publications</a></li>

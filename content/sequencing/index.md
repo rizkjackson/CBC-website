@@ -22,7 +22,7 @@ support you and your research.
 
 We also have long-term experience in methods and pipeline development,
 which sometimes is needed, particularly in novel research projects.
-We typically run these analyses on the large [compute cluster] here at
+We typically run these analyses on our large [compute cluster] here at
 the UCSF Helen Diller Family Comprehensive Cancer Center.
 
-[compute cluster]: <%=pathTo('software/index.html')%>
+[compute cluster]: <%=pathTo('hpc/index.html')%>
