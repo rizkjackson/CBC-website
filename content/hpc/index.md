@@ -8,7 +8,11 @@ core&nbsp;<sup><a href="#fn1" id="r1">[1]</a></sup> - feel free to
 
 As of February 2016, the cluster has 26 nodes and 1000+ cores where
 the smaller nodes have 32 GiB of RAM and the larger ones have 512 GiB
-of RAM.  It uses PBS/Torque
+of RAM.  The cluster uses [Scyld ClusterWare], which for instance
+means that all nodes have identical operating-system setups (Red Hat
+Linux) and identical software tools installed.
+We use [TORQUE PBS] for scheduling jobs and MOAB to manage the
+workload.
 
 
 ----------------------------------------
@@ -21,3 +25,5 @@ until January 2016.<br></span>
 </div>
 
 [contact]: <%=pathTo('contact/index.html')%>
+[Scyld ClusterWare]: http://www.penguincomputing.com/products/software/cluster-management-scyld-clusterware/
+[TORQUE PBS]: https://en.wikipedia.org/wiki/TORQUE
