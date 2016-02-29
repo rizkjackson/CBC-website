@@ -16,8 +16,8 @@ of RAM.  It uses PBS/Torque
 <em>Footnotes:</em><br>
 
 <span id="fn1"><a href="#r1">[1]</a>
-The compute cluster maintained by UCSF Translational Informatics until
-January 2016.<br></span>
+The compute cluster was maintained by UCSF Translational Informatics
+until January 2016.<br></span>
 </div>
 
 [contact]: <%=pathTo('contact/index.html')%>
