@@ -49,7 +49,7 @@ tens of thousands of arrays even on systems with limited memory
 resources.  When high-throughput sequencing
 (HT-Seq) entered the arena, there was a paradigm shift in the amount
 of data that needed to be processed.  Sequencing the DNA of a _single
-human genome_ at 50 times coverage produces a _~250GB data file_ of
+human genome_ at 50 times coverage produces a _~250 GiB data file_ of
 aligned reads.  Yes, that is ~4000 times larger file than what we
 get with microarray technologies.  (This does _not_ mean that we get
 4000 times more "information" from HT-Seq data, but that is a
@@ -93,4 +93,4 @@ the R.rsp package.<br></span>
 [QDNAseq]: http://www.bioconductor.org/packages/release/bioc/html/QDNAseq.html
 [R.matlab]: http://cran.r-project.org/package=R.matlab
 [R.rsp]: http://cran.r-project.org/package=R.rsp
-[sfit]: https://r-forge.r-project.org/R/?group_id=349
+[sfit]: https://github.com/HenrikBengtsson/sfit
