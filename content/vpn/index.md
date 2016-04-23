@@ -4,7 +4,7 @@ Enter the URL (web address) that you wish to open via the UCSF VPN
 below and click submit.  Don't forget include the protocol prefix, i.e. http://
 or https://.
 
-<form id="vpnform" role="form">
+<form id="vpnform">
   <div class="form-group">
    <input id="vpnurl" type="url" class="form-control"
           placeholder="e.g. http://www.nature.com/" autofocus/>
