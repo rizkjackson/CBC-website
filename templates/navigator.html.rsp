@@ -1,4 +1,4 @@
-<nav class="navbar navbar-default navbar-fixed-top" role="navigation" id="topnavbar">
+<nav class="navbar navbar-default navbar-fixed-top" id="topnavbar">
   <%-- USCF top banner [http://identity.ucsf.edu/website/] --%>
   <div class="top-banner logo">
     <div class="inner">
