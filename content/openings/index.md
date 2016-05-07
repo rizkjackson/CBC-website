@@ -30,6 +30,8 @@ Last updated: May 7, 2016
 
 
 [high performance compute]: <%=pathTo('hpc/index.html')%> 
-[UCSF Careers job post 44585BR]: https://sjobs.brassring.com/1033/asp/tg/cim_jobdetail.asp?JobSiteId=5226&JobSiteInfo=2277112_5226&jobId=2265715
-[UCSF Careers job post 44757BR]: https://sjobs.brassring.com/1033/asp/tg/cim_jobdetail.asp?JobSiteId=5226&JobSiteInfo=2277112_5226&jobId=2277112
+[UCSF Careers job post 44585BR]: https://jobs.brassring.com/1033/asp/tg/cim_jobdetail.asp?jobId=2265715&PartnerId=6495&SiteId=5226&type=mail&JobReqLang=1&recordstart=1&JobSiteId=5226&JobSiteInfo=2265715_5226&gqid=0
+[UCSF Careers job post 44757BR]: https://jobs.brassring.com/1033/asp/tg/cim_jobdetail.asp?jobId=2277112&PartnerId=6495&SiteId=5226&type=mail&JobReqLang=1&recordstart=1&JobSiteId=5226&JobSiteInfo=2277112_5226&gqid=0
+
+
 
