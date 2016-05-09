@@ -4,7 +4,7 @@ We, the UCSF Computational Biology Core (CBC) at the UCSF Helen Diller
 Family Comprehensive Cancer Center, are looking for a skilled and
 talented person who can maintain and improve our
 [high performance compute] cluster.  We are looking for _one_
-Systems Administrator at either Level III or Level IV:
+Systems Administrator at either Level III or Level IV.  Please apply at the appropriate level given your background; there is no need to apply to both.
 
 * **Systems Administrator III** (full time):  
   _"The primary task for this person will be to maintain,
