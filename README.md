@@ -12,7 +12,7 @@ Current build status: <a href="https://travis-ci.org/UCSF-CBC/CBC-website"><img 
 
 Once, check out the repository:
 ```
-git clone git@bitbucket.org:USCF-CBC/CBC-website.git
+git clone git@github.com:UCSF-CBC/CBC-website.git
 ```
 
 Before editing anything, make sure you have the most recent version of the files:
@@ -32,7 +32,7 @@ git commit -a
 ```
 and enter a brief message on what has been updated.  (To change the default editor, do `git config --global core.editor emacs`).
 
-Finally, to upload your committed changes to BitBucket, do:
+Finally, to upload your committed changes to GitHub, do:
 ```
 git push
 ```
@@ -47,7 +47,7 @@ open html/index.html
 ```
 
 [CBC website]: http://cbc.ucsf.edu/
-[content/]: https://bitbucket.org/USCF-CBC/CBC-website/src/HEAD/content/?at=master
+[content/]: https://github.com/UCSF-CBC/CBC-website/tree/master/content
 [R]: http://www.r-project.org/
 [R.rsp]: http://cran.r-project.org/package=R.rsp
 [Markdown]: http://daringfireball.net/projects/markdown/syntax
