@@ -6,9 +6,8 @@ with the Cancer Center.  The cluster is maintained by our
 core&nbsp;<sup><a href="#fn1" id="r1">[1]</a></sup> - feel free to
 [contact] us if you would like to join or have questions.
 
-As of February 2016, the cluster has 26 nodes and 1000+ cores where
-the smaller nodes have 32 GiB of RAM and the larger ones have 512 GiB
-of RAM.  The cluster uses [Scyld ClusterWare], which for instance
+As of February 2016, the cluster has 26 nodes and 1000+ cores with up to 512 GiB
+of RAM per node.  The cluster uses [Scyld ClusterWare], which for instance
 means that all nodes have identical operating-system setups (Red Hat
 Linux) and identical software tools installed.
 We use [TORQUE PBS] for scheduling jobs and [Moab] to manage the
