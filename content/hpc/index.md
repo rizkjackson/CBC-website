@@ -6,13 +6,68 @@ with the Cancer Center.  The cluster is maintained by our
 core&nbsp;<sup><a href="#fn1" id="r1">[1]</a></sup> - feel free to
 [contact] us if you would like to join or have questions.
 
-As of February 2016, the cluster has 26 nodes and 1000+ cores with up to 512 GiB
-of RAM per node.  The cluster uses [Scyld ClusterWare], which for instance
-means that all nodes have identical operating-system setups (Red Hat
-Linux) and identical software tools installed.
+As of September 2016, our cluster has 26 nodes and 1000+ cores
+with up to 512 GiB of RAM per node.
+The cluster uses [Scyld ClusterWare], which for instance means that
+all nodes have identical operating-system setups (Red Hat Linux 6.6)
+and identical software tools installed.
 We use [TORQUE PBS] for scheduling jobs and [Moab] to manage the
 workload.
 
+<br>
+
+<style>
+table {
+    margin: auto;
+    min-width: 60%;
+    max-width: 100%;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+tr:last-child {
+    border-top: 2px solid #000;
+}
+th {
+    background-color: #5bc0de;
+    color: #000;
+    border-bottom: 2px solid #000;
+}
+th, td {
+    padding: 0.5ex;
+}
+</style>
+
+
+Node      |      # cores | CPU (GHz) | RAM (GiB) | Notes                       
+----------|-------------:|----------:|----------:|-----------------------------
+n0        |           64 |      2.6  |       512 | InfiniBand (IB), FMA4       
+n1        |           48 |      2.6  |       512 | InfiniBand (IB), FMA4       
+n2        |           48 |      2.6  |       512 | InfiniBand (IB), FMA4       
+n3        |           48 |      2.4  |       384 | InfiniBand (IB), FMA4       
+n4        |           12 |      2.4  |        32 |                             
+n5        |           12 |      2.4  |        32 |                             
+n6        |           12 |      2.4  |        32 | (interactive / prototyping)
+n7        |           12 |      2.3  |        64 |                             
+n8        |           12 |      2.3  |        64 |                             
+n9        |           12 |      2.3  |        64 |                             
+n10       |           12 |      2.3  |        64 |                             
+n11       |           12 |      2.3  |        64 |                             
+n12       |           48 |      2.3  |       384 | Tesla M2070 GPU w/ 448 Cores
+n13       |           48 |      2.3  |       512 | Tesla M2070 GPU w/ 448 Cores
+n14       |           12 |      3.46 |       128 | InfiniBand (IB)             
+n15       |           64 |      2.6  |       128 | InfiniBand (IB), FMA4       
+n16       |           64 |      2.6  |       128 | InfiniBand (IB), FMA4       
+n17       |           64 |      2.6  |       512 | InfiniBand (IB), FMA4       
+n18       |           64 |      2.6  |       512 | InfiniBand (IB), FMA4       
+n19       |           64 |      2.6  |       512 | InfiniBand (IB), FMA4       
+n20       |           64 |      2.6  |       512 | InfiniBand (IB), FMA4       
+n21       |           48 |      2.8  |       256 | InfiniBand (IB), FMA4       
+n22       |           48 |      2.8  |       384 | InfiniBand (IB), FMA4       
+n23       |           48 |      2.8  |       384 | InfiniBand (IB), FMA4       
+n26       |           12 |      2.4  |        32 |                             
+n27       |           48 |      1.4  |       384 |                             
+**Total** |     **1016** |           |           |                             
 
 ----------------------------------------
 <div style="font-size: small;">
