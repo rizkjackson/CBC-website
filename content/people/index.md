@@ -18,7 +18,7 @@
   See also Saurabh's [UCSF Profile](http://profiles.ucsf.edu/saurabh.asthana)
   or [contact] him.
 
-* **Henrik Bengtsson**, PhD, is an Assistant Professor in Residence in
+* **Henrik Bengtsson**, PhD, is an Associate Professor in Residence in
   the UCSF Department of Epidemiology and Biostatistics. He obtained
   his MSc (Computer Science) and PhD (Mathematical Statistics) from
   Lund University in Sweden. Before joining the UCSF faculty, he did
