@@ -16,28 +16,6 @@ workload.
 
 <br>
 
-<style>
-table {
-    margin: auto;
-    min-width: 60%;
-    max-width: 100%;
-}
-tr:nth-child(even) {
-    background-color: #f2f2f2
-}
-tr:last-child {
-    border-top: 2px solid #000;
-}
-th {
-    background-color: #5bc0de;
-    color: #000;
-    border-bottom: 2px solid #000;
-}
-th, td {
-    padding: 0.5ex;
-}
-</style>
-
 
 Node      |      # cores | CPU (GHz) | RAM (GiB) | Notes                       
 ----------|-------------:|----------:|----------:|-----------------------------
