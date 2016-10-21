@@ -2,9 +2,8 @@
 
 At the UCSF Helen Diller Family Comprehensive Cancer Center we have a
 large Linux compute cluster that is available to anyone affiliated
-with the Cancer Center.  The cluster is maintained by our
-core&nbsp;<sup><a href="#fn1" id="r1">[1]</a></sup> - feel free to
-[contact] us if you would like to join or have questions.
+with the Cancer Center - feel free to [contact] us if you would like
+to join or have questions.<sup><a href="#fn1" id="r1">[1]</a></sup>
 
 As of September 2016, our cluster has 26 nodes and 1000+ cores
 with up to 512 GiB of RAM per node.
@@ -49,11 +48,14 @@ n27       |           48 |      1.4  |       384 |
 
 ----------------------------------------
 <div style="font-size: small;">
+<small>
 <em>Footnotes:</em><br>
-
 <span id="fn1"><a href="#r1">[1]</a>
-The compute cluster was maintained by UCSF Translational Informatics
-until January 2016.<br></span>
+As of 2016, the cluster is maintained jointly by members of the CBC and the <a href="http://ti.ucsf.edu/">Translational Informatics Core</a>.
+<%-- Feel free to <a href="<%=pathTo('contact/index.html')%>">contact</a> us if you would like to get access to TIPCC or have questions about the cluster. --%>
+<br>
+</small>
+</span>
 </div>
 
 [contact]: <%=pathTo('contact/index.html')%>
