@@ -34,8 +34,8 @@ n8        |           12 |      2.3  |        64 |              1.8 |
 n9        |           12 |      2.3  |        64 |              1.8 |                             
 n10       |           12 |      2.3  |        64 |              1.8 |                             
 n11       |           12 |      2.3  |        64 |              1.8 |                             
-n12       |           48 |      2.3  |       384 |                  | Tesla M2070 GPU w/ 448 Cores
-n13       |           48 |      2.3  |       512 |              1.8 | Tesla M2070 GPU w/ 448 Cores
+n12       |           48 |      2.3  |       384 |                  | Tesla M2070 GPU w/ 448 cores
+n13       |           48 |      2.3  |       512 |              1.8 | Tesla M2070 GPU w/ 448 cores
 n14       |           12 |      3.46 |       128 |                  | InfiniBand (IB)             
 n15       |           64 |      2.6  |       128 |              1.7 | InfiniBand (IB), FMA4       
 n16       |           64 |      2.6  |       128 |              1.8 | InfiniBand (IB), FMA4       
