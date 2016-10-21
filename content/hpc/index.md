@@ -5,9 +5,11 @@ large Linux compute cluster that is available to anyone affiliated
 with the Cancer Center - feel free to [contact] us if you would like
 to join or have questions.<sup><a href="#fn1" id="r1">[1]</a></sup>
 
-As of September 2016, our cluster has 26 nodes and 1000+ cores, which
-predominantly are AMD processors in addition to a few Intel processors.
-Each node has up to 512 GiB of RAM and 5 TiB of fast local disk space.
+As of September 2016, the cluster has 26 nodes and 1000+ cores, which
+predominantly are AMD processors.
+Each node has up to 512 GiB of RAM and up to 5 TiB of fast local disk space.
+In addition to ~90 TiB global disk space shared among all users, several
+research groups have disk space of their own mounted to the cluster.
 
 The cluster uses [Scyld ClusterWare], which for instance means that
 all nodes have identical operating-system setups (Red Hat Linux 6.6)
