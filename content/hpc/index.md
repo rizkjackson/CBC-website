@@ -63,6 +63,6 @@ As of 2016, the cluster is maintained jointly by members of the CBC and the <a h
 </div>
 
 [contact]: <%=pathTo('contact/index.html')%>
-[Scyld ClusterWare]: http://www.penguincomputing.com/products/software/cluster-management-scyld-clusterware/
+[Scyld ClusterWare]: http://www.penguincomputing.com/solutions/scyld-clusterware/
 [TORQUE PBS]: https://en.wikipedia.org/wiki/TORQUE
 [Moab]: https://en.wikipedia.org/wiki/Moab_Cluster_Suite
