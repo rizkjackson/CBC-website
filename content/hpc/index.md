@@ -58,8 +58,8 @@ n27       |           48 |      1.4  |       384 |              5.3 |
 As of 2016, the cluster is maintained jointly by members of the CBC and the <a href="http://ti.ucsf.edu/">Translational Informatics Core</a>.
 <%-- Feel free to <a href="<%=pathTo('contact/index.html')%>">contact</a> us if you would like to get access to TIPCC or have questions about the cluster. --%>
 <br>
-</small>
 </span>
+</small>
 </div>
 
 [contact]: <%=pathTo('contact/index.html')%>
