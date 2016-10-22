@@ -12,7 +12,7 @@ In addition to ~90 TiB global disk space shared among all users, several
 research groups have disk space of their own mounted to the cluster.
 
 The cluster uses [Scyld ClusterWare], which for instance means that
-all nodes have identical operating-system setups (Red Hat Linux 6.6)
+all nodes have identical Linux setups (Red Hat Enterprise 6.6)
 and identical software tools installed.
 We use [TORQUE PBS] for scheduling jobs and [Moab] to manage the
 workload.
