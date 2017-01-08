@@ -7,7 +7,7 @@ We contribute to several open-source projects including [R] and
 date with the field and to get invaluable feedback on our own software
 and work.
 
-Here is a list of software tools that we have developed ourselves or contributed to their development:
+Here are some of the software tools that we have developed ourselves or contributed to:
 
 * [affxparser]: Software for parsing Affymetrix microarray files.
 * [aroma]: Preprocessing of spotted microarray data.
