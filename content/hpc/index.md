@@ -41,7 +41,7 @@ n15       |           64 |      2.6  |       128 |              1.7 | InfiniBand
 n16       |           64 |      2.6  |       128 |              1.8 | InfiniBand (IB), FMA4       
 n17       |           64 |      2.6  |       512 |              5.3 | InfiniBand (IB), FMA4       
 n18       |           64 |      2.6  |       512 |              5.3 | InfiniBand (IB), FMA4       
-n19       |           64 |      2.6  |       512 |                  | InfiniBand (IB), FMA4       
+n19       |           64 |      2.6  |       512 |              5.3 | InfiniBand (IB), FMA4       
 n20       |           64 |      2.6  |       512 |              5.3 | InfiniBand (IB), FMA4       
 n21       |           48 |      2.8  |       256 |              5.3 | InfiniBand (IB), FMA4       
 n22       |           48 |      2.8  |       384 |              5.3 | InfiniBand (IB), FMA4       
