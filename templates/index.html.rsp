@@ -49,6 +49,7 @@
 
   <div class="container">
   <%@ifeq page=""%>
+    <%@include file="news.html.rsp"%>
 
     <h1 style="visibility: hidden; height: 0px;">Computational Biology Core (CBC)</h1>
     <div class="jumbotron">
