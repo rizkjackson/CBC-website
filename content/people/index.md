@@ -2,10 +2,12 @@
 
 ## Core members
 
+<%---
 <img src="<%=pathTo('assets/images/combio3.gif')%>" 
      class="img-rounded img-responsive"
      style="max-height: 200px; margin-right: 40px; margin-bottom: 20px"
      alt="Core members: Saurabh Asthana, Ritu Roy, Henrik Bengtsson, Adam Olshen">
+---%>	 
 
 * **Saurabh Asthana**, PhD, is an associate researcher at the UCSF
   Helen Diller Family Comprehensive Cancer Center. Saurabh did his
@@ -69,3 +71,17 @@
   See also Marks's [UCSF Profile](http://profiles.ucsf.edu/mark.segal)
   or [contact] him.
 
+
+## Affiliates
+
+* **Jason D. Cater** is a staff software engineer at the UCSF Helen
+  Diller Family Comprehensive Cancer Center. Jason's background is in
+  electrical engineering, visual design, and data analytics. Before taking
+  on a position with the Computational Biology Core, Jason was working
+  with the Center for Knowledge Management at UCSF under the auspices of
+  the [Truth Initiative](http://truthinitiative.org/) and the Legacy
+  Tobacco Foundation to develop the new web application to their
+  [extensive document collection](https://www.industrydocumentslibrary.ucsf.edu/).
+  Presently Jason is developing an open source software stack to help
+  support researchers in their efforts.
+  See the [contact] page on how to best reach Jason.
