@@ -1,6 +1,6 @@
 # Openings
 
-We, the UCSF Computational Biology Core (CBC) at the UCSF Helen Diller Family Comprehensive Cancer Center, are looking for skilled and talented persons to join our group and contribute and add to our current Bioinformatics skills.
+The Computational Biology Core (CBC) at the UCSF Helen Diller Family Comprehensive Cancer Center is looking to add a new member to our team.
  
 * **Bioinformatics Programmer III** (full time):  
   _"The primary task for this person will be to build sustainable bioinformatics pipelines for processing high-throughput data including that from next-generation sequencing.
@@ -13,9 +13,9 @@ We, the UCSF Computational Biology Core (CBC) at the UCSF Helen Diller Family Co
   Secondary tasks for this person will include analysis of genomic data and meetings with members of the Cancer Center community to better understand their bioinformatics needs."_  
  More details & online application: [UCSF Careers job post 46528BR]
 
-Please apply at the appropriate level given your background; there is no need to apply to both.  The overall tasks are the same for both levels but for the Level IV position it is expected that you have longer experience within the field and are more self going than for what is required for the Level III position.
+Please apply at the appropriate level given your background; there is no need to apply to both.  The overall tasks are the same for both positions with the Level IV position for candidates with more experience and higher level skills.
 
-We are looking forward to your application.
+We look forward to receiving your application.
 
 Last updated: February 14, 2017
 
