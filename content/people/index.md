@@ -74,10 +74,10 @@
 
 ## Affiliates
 
-* **Jason D. Cater** is a staff software engineer at the UCSF Helen
-  Diller Family Comprehensive Cancer Center. Jason's background is in
+* **Jason D. Cater** is a staff software engineer with the Cancer Immunotherapy Program (CIP) at the UCSF Helen
+  Diller Family Comprehensive Cancer Center.  Here he is working on the Mount Etna data integration project jointly with the UCSF Immunoprofiler Initiative and the Computational Biology Core. Jason's background is in
   electrical engineering, visual design, and data analytics. Before taking
-  on a position with the Computational Biology Core, Jason was working
+  on a position with the CIP, Jason was working
   with the Center for Knowledge Management at UCSF under the auspices of
   the [Truth Initiative](http://truthinitiative.org/) and the Legacy
   Tobacco Foundation to develop the new web application to their
