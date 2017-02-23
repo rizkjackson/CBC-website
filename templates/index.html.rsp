@@ -49,8 +49,10 @@
 
   <div class="container">
   <%@ifeq page=""%>
+    <%-- NEWS --%>
     <%@include file="news.html.rsp"%>
 
+    <%-- INTRODUCTION --%>
     <h1 style="visibility: hidden; height: 0px;">Computational Biology Core (CBC)</h1>
     <div class="jumbotron">
       <div class="media">
@@ -72,6 +74,12 @@
   
     <%-- GRID NAVIGATION --%>
     <%@include file="navigator-grid.html.rsp"%>
+
+    <%-- WORKAROUND: To separate navigation grid and grant panel --%>
+    <p>&nbsp;</p>
+    
+    <%-- GRANT PANEL --%>
+    <%@include file="grant.html.rsp"%>
   <%@else%>
     <h1 class="printonly">UCSF Computational Biology Core (CBC)</h1>
     <%@include content="${body}"%>

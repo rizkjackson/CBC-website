@@ -1,6 +1,7 @@
 config.rsp
 footer.html.rsp
 google-analytics.html.rsp
+grant.html.rsp
 index.html.rsp
 link-annotation.html.rsp
 navigator-grid.html.rsp
