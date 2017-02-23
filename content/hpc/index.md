@@ -5,9 +5,9 @@ large Linux compute cluster that is available to anyone affiliated
 with the Cancer Center - feel free to [contact] us if you would like
 to join or have questions.<sup><a href="#fn1" id="r1">[1]</a></sup>
 
-As of September 2016, the cluster has 26 nodes and 1000+ cores, which
+As of February 2017, the cluster has 28 nodes and ~1100 cores, which
 predominantly are AMD processors.
-Each node has up to 512 GiB of RAM and up to 5 TiB of fast local disk space.
+Each node has up to 512 GiB of RAM and up to 7 TiB of fast local disk space.
 In addition to ~90 TiB global disk space shared among all users, several
 research groups have disk space of their own mounted to the cluster.
 
@@ -48,14 +48,17 @@ n22       |           48 |      2.8  |       384 |              5.3 | InfiniBand
 n23       |           48 |      2.8  |       384 |              5.3 | InfiniBand (IB), FMA4       
 n26       |           12 |      2.4  |        32 |              1.8 |                             
 n27       |           48 |      1.4  |       384 |              5.3 |                             
-**Total** |     **1016** |           |           |                  |                             
+n28       |           64 |      2.3  |       512 |              2.6 |                             
+n29       |           28 |      2.4  |       512 |              7.2 |                             
+n30       |           28 |      2.4  |       512 |              7.2 |                             
+**Total** |     **1072** |           |           |                  |                             
 
 ----------------------------------------
 <div style="font-size: small;">
 <small>
 <em>Footnotes:</em><br>
 <span id="fn1"><a href="#r1">[1]</a>
-As of 2016, the cluster is maintained jointly by members of the CBC and the Translational Informatics Core.
+Since 2016 the cluster is maintained jointly by members of the CBC and the Translational Informatics Core.
 <%-- Feel free to <a href="<%=pathTo('contact/index.html')%>">contact</a> us if you would like to get access to TIPCC or have questions about the cluster. --%>
 <br>
 </span>
