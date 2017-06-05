@@ -5,7 +5,7 @@ large Linux compute cluster that is available to anyone affiliated
 with the Cancer Center - feel free to [contact] us if you would like
 to join or have questions.<sup><a href="#fn1" id="r1">[1]</a></sup>
 
-As of February 2017, the cluster has 28 nodes and ~1100 cores, which
+As of February 2017, the cluster has 28 nodes and ~1,100 cores, which
 predominantly are AMD processors.
 Each node has up to 512 GiB of RAM and up to 7 TiB of fast local disk space.
 In addition to ~90 TiB global disk space shared among all users, several
